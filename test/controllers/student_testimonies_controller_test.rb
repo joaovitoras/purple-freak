@@ -12,7 +12,7 @@ class StudentTestimoniesControllerTest < ActionDispatch::IntegrationTest
 
   test "should create student_testimony" do
     assert_difference('StudentTestimony.count') do
-      post student_testimonies_url, params: { student_testimony: { email: @student_testimony.email, full_name: @student_testimony.full_name, status: @student_testimony.status, text: @student_testimony.text, type: @student_testimony.type, url: @student_testimony.url } }, as: :json
+      post student_testimonies_url, params: { student_testimony: { email: @student_testimony.email, full_name: @student_testimony.full_name, status: @student_testimony.status, text: @student_testimony.text, kind: @student_testimony.kind, url: @student_testimony.url } }, as: :json
     end
 
     assert_response 201
@@ -24,7 +24,7 @@ class StudentTestimoniesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update student_testimony" do
-    patch student_testimony_url(@student_testimony), params: { student_testimony: { email: @student_testimony.email, full_name: @student_testimony.full_name, status: @student_testimony.status, text: @student_testimony.text, type: @student_testimony.type, url: @student_testimony.url } }, as: :json
+    patch student_testimony_url(@student_testimony), params: { student_testimony: { email: @student_testimony.email, full_name: @student_testimony.full_name, status: @student_testimony.status, text: @student_testimony.text, kind: @student_testimony.kind, url: @student_testimony.url } }, as: :json
     assert_response 200
   end
 
