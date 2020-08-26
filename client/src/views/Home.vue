@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <container tag="section">
-      <PageHeader />
-    </container>
+  <section>
+    <PageHeader />
 
     <container tag="section">
       <manifest />
@@ -13,22 +11,26 @@
 
       <lead-form />
     </container>
-  </div>
+
+    <PageFooter />
+  </section>
 </template>
 
 <script>
 import Container from '@/components/container';
-import PageHeader from '@/components/page-header';
-import Manifest from '@/components/manifest';
 import LeadForm from '@/components/lead-form';
+import Manifest from '@/components/manifest';
+import PageFooter from '@/layout/page-footer';
+import PageHeader from '@/layout/page-header';
 
 export default {
   name: 'Home',
   components: {
-    PageHeader,
     Container,
-    Manifest,
     LeadForm,
+    Manifest,
+    PageFooter,
+    PageHeader,
   },
   data() {
     return {
