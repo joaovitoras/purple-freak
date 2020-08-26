@@ -10,7 +10,10 @@
 
 - Add this repo into quero boot folder
 - Run `./docker/setup_quero_boot.sh`
-- Visit app on [http://localhost:3000](http://localhost:3000)
+- Into quero boot app run `docker-compose up purple-freak purple-freak-front`
+- Visit app:
+  - [API](http://localhost:3000)
+  - [Front](http://localhost:8080)
 
 #### Non quero boot
 ```bash
