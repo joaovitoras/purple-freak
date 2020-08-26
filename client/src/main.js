@@ -2,8 +2,9 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import axios from 'axios';
-
-Vue.config.productionTip = false;
+import './plugins/zilla';
+import '@quero/zilla-core/src/zilla.scss';
+import '@quero/zilla-core/src/themes/default/colors.scss';
 
 const baseURL = process.env.NODE_ENV === 'development'
   ? 'http://localhost:3000/api'

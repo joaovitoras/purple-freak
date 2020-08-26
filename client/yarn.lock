@@ -962,6 +962,26 @@
     pascalcase "^1.0.0"
     svg-tag-names "^2.0.1"
 
+"@quero/zilla-core@^3.8.0":
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/@quero/zilla-core/-/zilla-core-3.8.0.tgz#b9a8d64fdfa799dc77c6ef74ee0026d49c412df0"
+  integrity sha512-Rt9y1FghsnP57k4fCdJqxA9UhSbjbCLPBDFGcrM4bI7L45x1OwIo3Rv0SQyhP5niGqSUUICplAYM84/B0wfWOQ==
+  dependencies:
+    "@quero/zilla-dictionary" "^1.5.0"
+
+"@quero/zilla-dictionary@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@quero/zilla-dictionary/-/zilla-dictionary-1.5.0.tgz#d25571e31326be10640251206e04ac13b7f82c76"
+  integrity sha512-rOMt1D5YmJBlUftbabJOh2U5sPZJswxRMVI2fgDBeLtH/WZlgC205H5kxMwuoI+CI48eX5RD0HI+d9Ha/MP5Tg==
+
+"@quero/zilla-vue@^3.5.1":
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/@quero/zilla-vue/-/zilla-vue-3.5.1.tgz#3bae055be02dcba8fb206b33a62c582ef14f774b"
+  integrity sha512-pn+3BG8F+0W5XhFdtS9R6iJY6ygNfWJPwVCqwpbU0GLzZeBoLGhKCDV2ifH+TkKFWrccXDbbSw7WdzcDg2Dwlw==
+  dependencies:
+    v-click-outside "^3.0.1"
+    vue-prop-validation-helper "^3.0.0"
+
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/@soda/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-1.7.1.tgz#706f64bcb4a8b9642b48ae3ace444c70334d615d"
@@ -3270,6 +3290,13 @@ dom-serializer@0:
   dependencies:
     domelementtype "^2.0.1"
     entities "^2.0.0"
+
+dom7@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/dom7/-/dom7-2.1.5.tgz#a79411017800b31d8400070cdaebbfc92c1f6377"
+  integrity sha512-xnhwVgyOh3eD++/XGtH+5qBwYTgCm0aW91GFgPJ3XG+jlsRLyJivnbP0QmUBFhI+Oaz9FV0s7cxgXHezwOEBYA==
+  dependencies:
+    ssr-window "^2.0.0"
 
 domain-browser@^1.1.1:
   version "1.2.0"
@@ -7694,6 +7721,11 @@ sshpk@^1.7.0:
     safer-buffer "^2.0.2"
     tweetnacl "~0.14.0"
 
+ssr-window@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-2.0.0.tgz#98c301aef99523317f8d69618f0010791096efc4"
+  integrity sha512-NXzN+/HPObKAx191H3zKlYomE5WrVIkoCB5IaSdvKokxTpjBdWfr0RaP+1Z5KOfDT0ZVz+2tdtiBkhsEQ9p+0A==
+
 ssri@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
@@ -7941,6 +7973,14 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+swiper@^5.4.5:
+  version "5.4.5"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-5.4.5.tgz#a350f654bf68426dbb651793824925512d223c0f"
+  integrity sha512-7QjA0XpdOmiMoClfaZ2lYN6ICHcMm72LXiY+NF4fQLFidigameaofvpjEEiTQuw3xm5eksG5hzkaRsjQX57vtA==
+  dependencies:
+    dom7 "^2.1.5"
+    ssr-window "^2.0.0"
 
 table@^5.2.3:
   version "5.4.6"
@@ -8395,6 +8435,11 @@ uuid@^3.3.2, uuid@^3.4.0:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
+v-click-outside@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/v-click-outside/-/v-click-outside-3.0.1.tgz#95870c199726069f4eda7eb5781ade62526dd269"
+  integrity sha512-FITcAM0R3JEPUSGiO7hfhKDODZHkOQTk/FyI9mwxNcz6LbMbJhABhjevLI5VsU00PRksloQx8vmpFIqlAfX6nw==
+
 v8-compile-cache@^2.0.3:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.1.1.tgz#54bc3cdd43317bca91e35dcaf305b1a7237de745"
@@ -8412,6 +8457,11 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+
+vee-validate@^3.3.5:
+  version "3.3.9"
+  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-3.3.9.tgz#73db22eb28bea913b6a93b90369bb4cbf5e67d45"
+  integrity sha512-0ibP+8dNU8XitkhcB5UBnVlHdPlUqFx6jGg4vNUN/lw5geVKBvgyo83y7YCvYA5iqQPgCnuQxsx8kTHa0d/Zyw==
 
 vendors@^1.0.0:
   version "1.0.4"
@@ -8471,6 +8521,11 @@ vue-loader@^15.9.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-prop-validation-helper@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/vue-prop-validation-helper/-/vue-prop-validation-helper-3.0.0.tgz#416afa702725b0404193911452d3568eeef14746"
+  integrity sha512-Sf/gsJHN+NiURN27/SbI1aLSW1fUVlO8lp6hlU81DRjeU2Ub0qp7pLEgJQ01sKX9iE6jkgYyuYjRAtqvrg+h4g==
 
 vue-router@^3.2.0:
   version "3.4.3"

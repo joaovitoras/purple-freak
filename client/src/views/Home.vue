@@ -1,7 +1,17 @@
 <template>
   <div>
     This is the rails root injected into vue HU3
-    <div v-html="content" />
+    <z-carousel
+      v-if="contents"
+    >
+      <z-card
+        v-for="(content, index) in contents"
+        :key="index"
+      >
+        {{ content.full_name }} - {{ content.profession }}
+        {{ content.created_at }}
+      </z-card>
+    </z-carousel>
   </div>
 </template>
 
@@ -13,14 +23,17 @@ export default {
 
   data() {
     return {
-      content: '',
+      contents: '',
     };
   },
   mounted() {
     this.$api('/leads')
       .then(({ data }) => {
-        this.content = data;
+        this.contents = data;
       });
   },
 };
 </script>
+
+<style lang="scss">
+</style>
