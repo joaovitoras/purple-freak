@@ -6,7 +6,5 @@ Rails.application.routes.draw do
     resources :leads
     resources :student_testimonies
     resources :famous_testimonies
-    resources :partners
-    resources :leads
   end
 end
