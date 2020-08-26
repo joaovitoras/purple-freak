@@ -58,6 +58,9 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@quero/zilla-core/src/zilla.scss';
+@import '@quero/zilla-core/src/themes/default/colors.scss';
+@import 'reset-css';
 @import '@/assets/global.scss';
 
 .manifest {

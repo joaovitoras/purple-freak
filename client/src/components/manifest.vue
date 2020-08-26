@@ -1,12 +1,5 @@
 <template>
   <div class="manifest-section">
-    <div class="manifest-section__video">
-      <YoutubeEmbed
-        video-key="rHax1Pg-iSM"
-        :height="315"
-        width="560"
-      />
-    </div>
     <div class="manifest-section__items">
       <template
         v-for="(bullet, index) in bullets"
@@ -27,20 +20,69 @@
         </h2>
       </template>
     </div>
+    <div class="manifest-section__leads-form">
+      <form>
+        <z-input-field label="Nome">
+          <z-input
+            v-model="form.name"
+            placeholder="Insira eu nome"
+          />
+        </z-input-field>
+        <z-input-field label="Email">
+          <z-input
+            v-model="form.email"
+            placeholder="Insira seu email"
+          />
+        </z-input-field>
+        <z-input-field label="Profissão">
+          <z-input
+            v-model="form.email"
+            placeholder="Insira seu email"
+          />
+        </z-input-field>
+        <z-button
+          class="manifest-section__leads-form-submit"
+          icon="pencil-alt"
+          behavior="block"
+        >
+          Assinar manifesto
+        </z-button>
+      </form>
+    </div>
+
+    <div class="manifest-section__leads-timeline">
+      <div
+        v-for="i in 3"
+        :key="i"
+        class="manifest-section__leads-timeline-item"
+      >
+        <z-avatar
+          size="extra-small"
+          class="manifest-section__leads-timeline-avatar"
+        />
+
+        <z-text>
+          Eaee, assinei
+        </z-text>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import bullets from '@/content/manifest-bullets.json';
-import YoutubeEmbed from '@/components/youtube-embed';
 
 export default {
   components: {
-    YoutubeEmbed,
   },
   data() {
     return {
       bullets,
+      form: {
+        name: null,
+        email: null,
+        profission: null,
+      },
     };
   },
 };
@@ -53,14 +95,36 @@ export default {
   display: flex;
 }
 
-.manifest-section__video {
+.manifest-section__leads-form {
   margin-right: var(--space-extra-large);
+  min-width: 250px;
+}
+
+.manifest-section__leads-form-submit {
+  // --button-background: red;
+}
+
+.manifest-section__leads-timeline {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+}
+
+.manifest-section__leads-timeline-item {
+  display: flex;
+  padding: var(--space-small) var(--space-medium);
+  margin-bottom: var(--space-medium);
+}
+
+.manifest-section__leads-timeline-avatar {
+  margin-right: var(--space-small);
 }
 
 .manifest-section__item {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--space-large);
+  margin-right: var(--space-extra-large);
 }
 
 .manifest-section__number.manifest-section__number {
