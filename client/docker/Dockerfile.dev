@@ -1,0 +1,13 @@
+FROM node:14-alpine
+
+RUN apk update && apk upgrade && apk add bash
+
+WORKDIR /app
+COPY . /app
+
+RUN yarn
+
+EXPOSE 8080
+
+# Start the main process.
+CMD ["yarn", "serve"]
