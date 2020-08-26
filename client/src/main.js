@@ -1,16 +1,20 @@
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
+import axios from 'axios';
 
 Vue.config.productionTip = false;
 
-const apiHost = process.env.NODE_ENV === 'development'
-  ? 'http://localhost:3000'
-  : 'https://purple-freak.herokuapp.com/';
+const baseURL = process.env.NODE_ENV === 'development'
+  ? 'http://localhost:3000/api'
+  : 'https://purple-freak.herokuapp.com/api';
 
 Vue.use({
   install(vueIntance) {
-    vueIntance.prototype.$apiHost = apiHost;
+    vueIntance.prototype.$api = axios.create({
+      baseURL,
+      withCredentials: true,
+    });
   },
 });
 

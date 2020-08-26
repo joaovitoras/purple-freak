@@ -17,10 +17,9 @@ export default {
     };
   },
   mounted() {
-    fetch(this.$apiHost, { credentials: 'include' })
-      .then(response => response.text())
-      .then((response) => {
-        this.content = response;
+    this.$api('/leads')
+      .then(({ data }) => {
+        this.content = data;
       });
   },
 };
