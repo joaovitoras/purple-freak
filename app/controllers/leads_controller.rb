@@ -55,6 +55,9 @@ class LeadsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def lead_params
-      params.require(:lead).permit(:full_name, :signed_at, :email, :profession)
+      params.
+        require(:lead).
+        permit(:full_name, :signed_at, :email, :profession).
+        with_defaults(signed_at: Time.current)
     end
 end

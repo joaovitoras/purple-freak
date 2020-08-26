@@ -21,23 +21,23 @@
       </template>
     </div>
     <div class="manifest-section__leads-form">
-      <form>
+      <form @submit.prevent="signManifest">
         <z-input-field label="Nome">
           <z-input
-            v-model="form.name"
+            v-model="lead.name"
             placeholder="Insira eu nome"
           />
         </z-input-field>
         <z-input-field label="Email">
           <z-input
-            v-model="form.email"
+            v-model="lead.email"
             placeholder="Insira seu email"
           />
         </z-input-field>
         <z-input-field label="Profissão">
           <z-input
-            v-model="form.email"
-            placeholder="Insira seu email"
+            v-model="lead.profission"
+            placeholder="Insira sua profissão"
           />
         </z-input-field>
         <z-button
@@ -78,12 +78,21 @@ export default {
   data() {
     return {
       bullets,
-      form: {
+      lead: {
         name: null,
         email: null,
         profission: null,
       },
     };
+  },
+  methods: {
+    signManifest() {
+      this
+        .$api
+        .post('/leads', { lead: this.lead })
+        .then(a => console.log(a))
+        .catch(a => console.log(a));
+    },
   },
 };
 </script>
