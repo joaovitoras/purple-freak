@@ -1,0 +1,2 @@
+class FamousTestimony < ApplicationRecord
+end
