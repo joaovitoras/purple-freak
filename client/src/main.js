@@ -5,14 +5,15 @@ import axios from 'axios';
 import './plugins/zilla';
 import '@quero/zilla-core/src/zilla.scss';
 import '@quero/zilla-core/src/themes/default/colors.scss';
+import 'reset-css';
 
 const baseURL = process.env.NODE_ENV === 'development'
   ? 'http://localhost:3000/api'
   : 'https://purple-freak.herokuapp.com/api';
 
 Vue.use({
-  install(vueIntance) {
-    vueIntance.prototype.$api = axios.create({
+  install(vueInstance) {
+    vueInstance.prototype.$api = axios.create({
       baseURL,
       withCredentials: true,
     });
