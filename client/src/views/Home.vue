@@ -1,26 +1,33 @@
 <template>
   <div>
-    This is the rails root injected into vue HU3
-    <z-carousel
-      v-if="contents"
-    >
-      <z-card
-        v-for="(content, index) in contents"
-        :key="index"
-      >
-        {{ content.full_name }} - {{ content.profession }}
-        {{ content.created_at }}
-      </z-card>
-    </z-carousel>
+    <container tag="section">
+      <PageHeader />
+    </container>
+
+    <container tag="section">
+      <manifest />
+    </container>
+
+    <container tag="section">
+      <lead-form />
+    </container>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src on import
+import Container from '@/components/container';
+import PageHeader from '@/components/page-header';
+import Manifest from '@/components/manifest';
+import LeadForm from '@/components/lead-form';
 
 export default {
   name: 'Home',
-
+  components: {
+    PageHeader,
+    Container,
+    Manifest,
+    LeadForm,
+  },
   data() {
     return {
       contents: '',
@@ -36,4 +43,5 @@ export default {
 </script>
 
 <style lang="scss">
+
 </style>
