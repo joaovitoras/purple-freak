@@ -11,8 +11,8 @@ const baseURL = process.env.NODE_ENV === 'development'
   : 'https://purple-freak.herokuapp.com/api';
 
 Vue.use({
-  install(vueIntance) {
-    vueIntance.prototype.$api = axios.create({
+  install(vueInstance) {
+    vueInstance.prototype.$api = axios.create({
       baseURL,
       withCredentials: true,
     });
