@@ -1,4 +1,4 @@
-class PartnersController < ActionController::API
+class PartnersController < ApplicationController
   before_action :set_partner, only: [:show, :update, :destroy]
 
   # GET /partners
