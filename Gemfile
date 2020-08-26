@@ -23,6 +23,9 @@ gem 'rack-cors'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
+# Crud Admin
+gem 'rails_admin', '~> 2.0'
+
 group :development, :test do
   gem 'pry'
   gem 'pry-rails'
