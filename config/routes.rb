@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   mount RailsAdmin::Engine => '/crm', as: 'rails_admin'
 
+  resources :student_testimonies
   resources :famous_testimonies
   resources :partners
   resources :leads

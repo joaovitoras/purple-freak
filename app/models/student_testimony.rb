@@ -1,0 +1,2 @@
+class StudentTestimony < ApplicationRecord
+end
