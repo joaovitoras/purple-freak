@@ -2,18 +2,18 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: <%= ENV.fetch("DB_NAME") { 'teste' } %>_<%= Rails.env %>
+  database: <%= ENV.fetch("DB_NAME") { 'purple_freak' } %>
   host: <%= ENV.fetch("DB_HOST") { 'localhost' } %>
-  username: <%= ENV.fetch("DB_USER") { 'teste' } %>
-  password: <%= ENV.fetch("DB_PASSWORD") { 'teste' } %>
+  username: <%= ENV.fetch("DB_USER") { 'postgres' } %>
+  password: <%= ENV.fetch("DB_PASSWORD") { 'postgres' } %>
 
 development:
   <<: *default
+  database: <%= ENV.fetch("DB_NAME") { 'purple_freak' } %>_development
 
 test:
   <<: *default
+  database: <%= ENV.fetch("DB_NAME") { 'purple_freak' } %>_test
 
 production:
   <<: *default
-  username: teste
-  password: <%= ENV['TESTE_DATABASE_PASSWORD'] %>
