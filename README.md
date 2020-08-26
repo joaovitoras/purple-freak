@@ -1,24 +1,41 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Dependencies
+- PostgreSQL >= 11
+- Ruby >= 2.6
 
-Things you may want to cover:
 
-* Ruby version
+## Setup
+#### Via quero boot
 
-* System dependencies
+- Add this repo into quero boot folder
+- Run `./docker/setup_quero_boot.sh`
+- Visit app on [http://localhost:3000](http://localhost:3000)
 
-* Configuration
+#### Non quero boot
+```bash
+# Install postgres: Visit https://www.postgresql.org/download/ to
+# check how to download and install into your system
 
-* Database creation
+# Install ruby with rvm (you can use your favorite manager like asdf or rbenv)
+$ `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
 
-* Database initialization
+# Install ruby dependencies
+$ bundle install
 
-* How to run the test suite
+# Setup your custom database environment variables
+# This is default values, you can skip this step if you dont need to change
+# Remember to adds this variables to your terminal source to be available into all sessions
+DB_NAME=teste
+DB_HOST=localhost
+DB_USER=teste
+DB_PASSWORD=teste
 
-* Services (job queues, cache servers, search engines, etc.)
+#  Create, migrate and seed your database
+$ bin/rails db:{create,migrate:seed}
 
-* Deployment instructions
+# Start your app
+$ bin/rails s
 
-* ...
+# Visit app on http://localhost:3000
+```
