@@ -2,12 +2,6 @@
   <section>
     <PageHeader />
 
-    <YoutubeEmbed
-      video-key="rHax1Pg-iSM"
-      :height="315"
-      :width="560"
-    />
-
     <container tag="section">
       <manifest />
     </container>
@@ -28,7 +22,6 @@ import LeadForm from '@/components/lead-form';
 import Manifest from '@/components/manifest';
 import PageFooter from '@/layout/page-footer';
 import PageHeader from '@/layout/page-header';
-import YoutubeEmbed from '@/components/youtube-embed';
 
 export default {
   name: 'Home',
@@ -38,7 +31,6 @@ export default {
     Manifest,
     PageFooter,
     PageHeader,
-    YoutubeEmbed,
   },
   data() {
     return {

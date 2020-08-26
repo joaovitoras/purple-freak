@@ -1,14 +1,11 @@
 <template>
-  <div>
-    <iframe
-      :width="width"
-      :height="height"
-      :src="videoUrl"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    />
-  </div>
+  <iframe
+    :width="width"
+    :height="height"
+    :src="videoUrl"
+    frameborder="0"
+    allowfullscreen
+  />
 </template>
 
 <script>
@@ -20,7 +17,7 @@ export default {
       required: true,
     },
     width: {
-      type: Number,
+      type: [Number, String],
       required: true,
     },
     height: {
@@ -30,7 +27,7 @@ export default {
   },
   computed: {
     videoUrl() {
-      return `https://www.youtube.com/embed/${this.videoKey}`;
+      return `https://www.youtube-nocookie.com/embed/${this.videoKey}`;
     },
   },
 };
