@@ -26,6 +26,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # Crud Admin
 gem 'rails_admin', '~> 2.0'
 
+# State Machine
+gem 'aasm', '~> 5.1'
+
 group :development, :test do
   gem 'pry'
   gem 'pry-rails'
