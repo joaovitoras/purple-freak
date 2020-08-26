@@ -26,7 +26,7 @@ export default {
 @import '@quero/zilla-core/src/utils/_index.scss';
 
 .container {
-  --container-side-padding: var(--space-medium);
+  --container-side-padding: var(--space-large);
   --container-max-width: 1350px;
 
   margin-left: auto;

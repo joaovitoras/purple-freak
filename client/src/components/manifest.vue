@@ -123,13 +123,13 @@ export default {
 .manifest-section__item {
   display: flex;
   align-items: flex-start;
-  margin-bottom: var(--space-large);
-  margin-right: var(--space-extra-large);
+  margin-bottom: var(--space-colossal);
+  margin-right: var(--space-jumbo);
 }
 
 .manifest-section__number.manifest-section__number {
   font-size: rem(60);
   line-height: 0.9;
-  margin-right: var(--space-medium);
+  margin-right: var(--space-extra-large);
 }
 </style>
