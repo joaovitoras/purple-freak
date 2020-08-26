@@ -1,6 +1,11 @@
 class StudentTestimony < ApplicationRecord
   include AASM
 
+  enum kind: {
+    youtube: "youtube",
+    text: "text",
+  }
+
   aasm column: :status do
     state :pending, initial: true
     state :accepted
