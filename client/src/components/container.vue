@@ -1,8 +1,7 @@
-<template functional>
+<template>
   <component
-    :is="props.tag"
-    v-if="$options.shouldDisplay(slots)"
-    v-bind="data.attrs"
+    :is="tag"
+    v-if="$slots.default"
     class="container"
   >
     <slot />
@@ -13,16 +12,12 @@
 
 export default {
   name: 'UiContainer',
+  inheritAttrs: true,
   props: {
     tag: {
       type: String,
       default: 'div',
     },
-  },
-  shouldDisplay(slots) {
-    const children = slots();
-
-    return children && children.default;
   },
 };
 </script>
@@ -32,7 +27,7 @@ export default {
 
 .container {
   --container-side-padding: var(--space-medium);
-  --container-max-width: #{$screen-lg};
+  --container-max-width: 1350px;
 
   margin-left: auto;
   margin-right: auto;

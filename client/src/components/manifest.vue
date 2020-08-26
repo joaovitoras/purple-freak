@@ -3,8 +3,8 @@
     <div class="manifest-section__video">
       <YoutubeEmbed
         video-key="rHax1Pg-iSM"
-        :height="375"
-        width="100%"
+        :height="315"
+        width="560"
       />
     </div>
     <div class="manifest-section__items">
@@ -18,6 +18,7 @@
           <z-text
             tag="span"
             weight="bold"
+            size="large"
             class="manifest-section__number"
           >
             {{ index + 1 }}
@@ -49,18 +50,11 @@ export default {
 @import '@quero/zilla-core/src/utils/_index.scss';
 
 .manifest-section {
-  margin-top: var(--space-jumbo);
-  margin-bottom: var(--space-jumbo);
   display: flex;
 }
 
 .manifest-section__video {
   margin-right: var(--space-extra-large);
-}
-
-.manifest-section__video, .manifest-section__items {
-  flex-basis: 0;
-  flex-grow: 1;
 }
 
 .manifest-section__item {
@@ -70,8 +64,8 @@ export default {
 }
 
 .manifest-section__number.manifest-section__number {
-  font-size: rem(62);
-  line-height: 0.7;
+  font-size: rem(60);
+  line-height: 0.9;
   margin-right: var(--space-medium);
 }
 </style>

@@ -2,15 +2,19 @@
   <section>
     <PageHeader />
 
-    <container tag="section">
-      <manifest />
-    </container>
+    <section class="section manifest">
+      <container>
+        <manifest />
+      </container>
+    </section>
 
-    <container tag="section">
-      <p>Total de assinaturas: {{ leads_count }}</p>
+    <section>
+      <container>
+        <p>Total de assinaturas: {{ leads_count }}</p>
 
-      <lead-form />
-    </container>
+        <lead-form />
+      </container>
+    </section>
 
     <PageFooter />
   </section>
@@ -54,5 +58,15 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/assets/global.scss';
 
+.manifest {
+  background-color: var(--blue);
+}
+
+.section  {
+  padding-top: var(--space-colossal);
+  padding-bottom: var(--space-colossal);
+  color: white
+}
 </style>

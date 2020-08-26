@@ -13,6 +13,6 @@ export default {
 <style lang="scss" scoped>
 .page-footer {
   height: 70px;
-  background-color: blue;
+  background-color: var(--blue);
 }
 </style>

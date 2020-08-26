@@ -13,6 +13,6 @@ export default {
 <style lang="scss" scoped>
 .page-header {
   height: 70px;
-  background-color: red;
+  background-color: var(--red);
 }
 </style>
