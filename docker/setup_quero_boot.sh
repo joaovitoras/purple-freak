@@ -23,13 +23,13 @@ PURPLE_FREAK_FRONT_DOCKERFILE_NAME=docker/Dockerfile.dev" >> .env
 printMessasage "Docker context and file name appended to .env"
 
 printMessasage "Build back"
-# docker-compose build purple-freak
+docker-compose build purple-freak
 
 printMessasage "Build front"
 docker-compose build purple-freak-front
 
 printMessasage "Create, migrate and seed database"
-# docker-compose run --rm purple-freak bin/rails db:{create,migrate,seed}
+docker-compose run --rm purple-freak bin/rails db:{create,migrate,seed}
 
 printMessasage "Use this command into quero boot to start your app: ${NC}docker-compose up purple-freak purple-freak-front"
 printMessasage "All done!"
