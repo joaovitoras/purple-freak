@@ -61,7 +61,7 @@ export default {
 @import '@/assets/global.scss';
 
 .manifest {
-  background-color: var(--blue);
+  background-color: var(--blue2);
 }
 
 .section  {
