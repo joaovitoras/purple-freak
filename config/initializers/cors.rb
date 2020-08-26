@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'localhost:8080', 'https://purple-freak.netlify.app'
+    origins 'localhost:8080', 'https://purple-freak.netlify.app', 'devspelaeducacao.com.br'
 
     resource '*',
       headers: :any,
