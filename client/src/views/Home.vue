@@ -9,6 +9,8 @@
     </container>
 
     <container tag="section">
+      <p>Total de assinaturas: {{ leads_count }}</p>
+
       <lead-form />
     </container>
   </div>
@@ -31,12 +33,19 @@ export default {
   data() {
     return {
       contents: '',
+      leads_count: null,
     };
   },
   mounted() {
     this.$api('/leads')
       .then(({ data }) => {
         this.contents = data;
+      });
+
+    this.$api('/leads-overview')
+      .then(({ data }) => {
+        const { leads_count } = data;
+        this.leads_count = leads_count;
       });
   },
 };

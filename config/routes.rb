@@ -6,5 +6,9 @@ Rails.application.routes.draw do
     resources :leads
     resources :student_testimonies
     resources :famous_testimonies
+
+    controller 'leads' do
+      get '/leads-overview' => :overview
+    end
   end
 end
