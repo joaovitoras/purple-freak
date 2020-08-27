@@ -6,7 +6,7 @@
       <container>
         <z-title
           size="large"
-          class="section-sign-hero__title"
+          class="section__title"
           align="center"
         >
           Um movimento pelo acesso ilimitado a conteúdos de educação
@@ -24,6 +24,14 @@
 
     <section class="section manifest-section">
       <container>
+        <z-title
+          size="extra-large"
+          class="section__title"
+          align="center"
+        >
+          O que defendemos?
+        </z-title>
+
         <manifest />
       </container>
     </section>
@@ -100,6 +108,10 @@ export default {
   padding-bottom: var(--space-colossal);
 }
 
+.section__title {
+  margin-bottom: var(--space-jumbo);
+}
+
 .introduction-section {
   color: white;
   background-color: var(--blue2);
@@ -113,9 +125,5 @@ export default {
   color: white;
   background-color: var(--cyan);
   padding-top: 48px;
-}
-
-.section-sign-hero__title {
-  margin-bottom: 40px;
 }
 </style>
