@@ -42,14 +42,6 @@
       </container>
     </section>
 
-    <section >
-      <container>
-        <p>Total de assinaturas: {{ leads_count }}</p>
-
-        <lead-form />
-      </container>
-    </section>
-
     <PageFooter />
   </section>
 </template>
@@ -58,7 +50,6 @@
 import PageFooter from '@/layout/page-footer';
 import PageHeader from '@/layout/page-header';
 import Container from '@/components/container';
-import LeadForm from '@/components/lead-form';
 import Manifest from '@/components/manifest';
 import Introduction from '@/components/introduction';
 import SignHero from '@/components/sign-hero';
@@ -68,31 +59,12 @@ export default {
   name: 'Home',
   components: {
     Container,
-    LeadForm,
     Manifest,
     Introduction,
     SignHero,
     Testimonials,
     PageFooter,
     PageHeader,
-  },
-  data() {
-    return {
-      contents: '',
-      leads_count: null,
-    };
-  },
-  mounted() {
-    this.$api('/leads')
-      .then(({ data }) => {
-        this.contents = data;
-      });
-
-    this.$api('/leads-overview')
-      .then(({ data }) => {
-        const { leads_count } = data;
-        this.leads_count = leads_count;
-      });
   },
 };
 </script>
