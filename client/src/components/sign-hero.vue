@@ -1,6 +1,6 @@
 <template>
   <div class="sign-hero">
-    <div class="">
+    <div class="yeeee">
       <!-- <z-text
         size="large"
       >
@@ -20,11 +20,10 @@
       </z-text> -->
 
       <!-- OU -->
-
       <YoutubeEmbed
         video-key="rHax1Pg-iSM"
-        :height="315"
-        :width="560"
+        :height="windowHeight()"
+        :width="windowWidth()"
       />
     </div>
 
@@ -127,6 +126,20 @@ export default {
         .then(a => console.log(a))
         .catch(a => console.log(a));
     },
+    windowWidth() {
+      if (window.innerWidth >= 1024) {
+        return 650;
+      }
+
+      return 270;
+    },
+    windowHeight() {
+      if (window.innerWidth >= 1024) {
+        return 354;
+      }
+
+      return 180;
+    },
   },
 };
 </script>
@@ -137,11 +150,28 @@ export default {
 .sign-hero {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+
+  @media (min-width: $screen-md-min) {
+    flex-direction: row;
+  }
 }
 
 .sign-hero__leads-form {
-  margin-right: var(--space-extra-large);
   min-width: 250px;
+
+  @media (min-width: $screen-md-min) {
+    margin-right: var(--space-extra-large);
+  }
+}
+
+.yeeee {
+  flex-grow: 2;
+  order: 2;
+
+  @media (min-width: $screen-md-min) {
+    order:unset;
+  }
 }
 
 .sign-hero__leads-form-submit {
@@ -169,9 +199,14 @@ export default {
 
 .sign-hero__leads-timeline {
   margin-top: var(--space-medium);
+  margin-bottom: var(--space-extra-large);
   display: flex;
   flex-direction: column;
   min-width: 200px;
+
+  @media (min-width: $screen-md-min) {
+    margin-bottom: 0;
+  }
 }
 
 .sign-hero__leads-timeline-item {
