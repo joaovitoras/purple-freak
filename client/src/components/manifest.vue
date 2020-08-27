@@ -16,7 +16,7 @@
           >
             {{ index + 1 }}
           </z-text>
-          <z-text>{{ bullet }}</z-text>
+          <z-text v-html="bullet" />
         </h2>
       </template>
     </div>
