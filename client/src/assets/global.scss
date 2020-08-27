@@ -9,3 +9,8 @@
   --color-button-brand-education-background: var(--red);
   --color-button-brand-education-hover: var(--red);
 }
+
+// For some reason, zilla makes a override in the strong style
+strong {
+  font-weight: bold !important;
+}
