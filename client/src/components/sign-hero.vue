@@ -1,5 +1,33 @@
 <template>
   <div class="sign-hero">
+    <div class="">
+      <!-- <z-text
+        size="large"
+      >
+        A internet é essencial hoje em dia. Com a pandemia, passamos a fazer tudo online, inclusive, <strong>estudar.</strong>
+      </z-text>
+
+      <z-text
+        size="large"
+      >
+        Mas, você sabia que <strong>39% dos alunos</strong> de escolas públicas urbanas do Brasil não tem acesso a computadores? Ou que <strong>33,5% dos inscritos no ENEM</strong> nos últimos 5 anos não possuem acesso a internet?
+      </z-text>
+
+      <z-text
+        size="large"
+      >
+        É contra isso que queremos lutar. <strong>Assine o manifesto e junte-se a nós!</strong>
+      </z-text> -->
+
+      <!-- OU -->
+
+      <YoutubeEmbed
+        video-key="rHax1Pg-iSM"
+        :height="315"
+        :width="560"
+      />
+    </div>
+
     <div class="sign-hero__leads-form">
       <form @submit.prevent="signManifest">
         <z-input-field
@@ -76,8 +104,11 @@
 </template>
 
 <script>
+import YoutubeEmbed from '@/components/youtube-embed';
+
 export default {
   components: {
+    YoutubeEmbed,
   },
   data() {
     return {
@@ -105,6 +136,7 @@ export default {
 
 .sign-hero {
   display: flex;
+  justify-content: space-between;
 }
 
 .sign-hero__leads-form {
