@@ -2,13 +2,21 @@
   <section>
     <PageHeader />
 
-    <section class="section sign-hero">
+    <section class="section sign-hero-section">
       <container>
+        <z-title
+          size="large"
+          class="section-sign-hero__title"
+          align="center"
+        >
+          Um movimento pelo acesso ilimitado a conteúdos de educação
+        </z-title>
+
         <sign-hero />
       </container>
     </section>
 
-    <section class="section manifest">
+    <section class="section manifest-section">
       <container>
         <manifest />
       </container>
@@ -79,18 +87,23 @@ export default {
 @import 'reset-css';
 @import '@/assets/global.scss';
 
-.manifest {
+.section  {
+  padding-top: var(--space-colossal);
+  padding-bottom: var(--space-colossal);
+}
+
+.manifest-section {
   color: white;
   background-color: var(--blue2);
 }
 
-.sign-hero {
+.sign-hero-section {
   color: white;
   background-color: var(--cyan);
+  padding-top: 48px;
 }
 
-.section  {
-  padding-top: var(--space-colossal);
-  padding-bottom: var(--space-colossal);
+.section-sign-hero__title {
+  margin-bottom: 40px;
 }
 </style>
