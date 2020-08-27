@@ -28,6 +28,15 @@
     </div>
 
     <div class="sign-hero__leads-form">
+      <z-text class="sign-hero__leads-count">
+        <template v-if="leads_count">
+          <strong>{{ leads_count }}</strong> pessoas já assinaram
+        </template>
+        <template v-else>
+          Carregando...
+        </template>
+      </z-text>
+
       <form @submit.prevent="signManifest">
         <z-input-field
           #default="{ hasError }"
@@ -37,7 +46,7 @@
           <z-input
             v-model="lead.name"
             :has-error="hasError"
-            placeholder="Insira eu nome"
+            placeholder="Insira seu nome"
           />
         </z-input-field>
 
@@ -80,12 +89,12 @@
           size="small"
           class="sign-hero__leads-timeline-title"
         >
-          Ultimas assinaturas
+          Últimas assinaturas
         </z-text>
 
         <div
-          v-for="i in 2"
-          :key="i"
+          v-for="lead in leads"
+          :key="lead.email"
           class="sign-hero__leads-timeline-item"
         >
           <z-avatar
@@ -93,8 +102,8 @@
             class="sign-hero__leads-timeline-avatar"
           />
 
-          <z-text>
-            Eaee, assinei
+          <z-text size="small">
+            <strong>{{ lead.full_name }}</strong> assinou {{ moment(lead.signed_at).fromNow() }}
           </z-text>
         </div>
       </div>
@@ -116,7 +125,25 @@ export default {
         email: null,
         profission: null,
       },
+      leads: [],
+      leads_count: null,
     };
+  },
+  mounted() {
+    this
+      .$api
+      .get('/leads')
+      .then(({ data }) => {
+        this.leads = data;
+      });
+
+    this.$api('/leads-overview')
+      .then(({ data }) => {
+        const { leads_count } = data;
+        this.leads_count = leads_count;
+      });
+
+    window.moment = this.moment;
   },
   methods: {
     signManifest() {
@@ -223,5 +250,9 @@ export default {
 
 .sign-hero__leads-timeline-title {
   margin-bottom: var(--space-small);
+}
+
+.sign-hero__leads-count {
+  margin-bottom: 16px;
 }
 </style>

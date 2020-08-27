@@ -5,6 +5,7 @@
     :src="videoUrl"
     frameborder="0"
     allowfullscreen
+    class="youtube-embed"
   />
 </template>
 
@@ -37,5 +38,9 @@ export default {
 .page-footer {
   height: 70px;
   background-color: blue;
+}
+
+.youtube-embed {
+  display: block;
 }
 </style>
