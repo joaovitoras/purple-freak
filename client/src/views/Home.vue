@@ -42,6 +42,12 @@
       </container>
     </section>
 
+    <section class="section share-section">
+      <container>
+        <shares />
+      </container>
+    </section>
+
     <PageFooter />
   </section>
 </template>
@@ -51,6 +57,7 @@ import PageFooter from '@/layout/page-footer';
 import PageHeader from '@/layout/page-header';
 import Container from '@/components/container';
 import Manifest from '@/components/manifest';
+import Shares from '@/components/shares';
 import Introduction from '@/components/introduction';
 import SignHero from '@/components/sign-hero';
 import Testimonials from '@/components/testimonials';
@@ -63,6 +70,7 @@ export default {
     Introduction,
     SignHero,
     Testimonials,
+    Shares,
     PageFooter,
     PageHeader,
   },
@@ -97,5 +105,9 @@ export default {
   color: white;
   background-color: var(--cyan);
   padding-top: 48px;
+}
+
+.share-section {
+  background-color: var(--blue1);
 }
 </style>

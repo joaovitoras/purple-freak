@@ -37,7 +37,10 @@
         </template>
       </z-text>
 
-      <form @submit.prevent="signManifest">
+      <form
+        v-if="showForm"
+        @submit.prevent="signManifest"
+      >
         <z-input-field
           #default="{ hasError }"
           label="Nome (Obrigatório)"
@@ -119,6 +122,7 @@ export default {
   },
   data() {
     return {
+      showForm: !Boolean(window.localStorage['assinou']),
       lead: {
         name: null,
         email: null,
@@ -149,7 +153,10 @@ export default {
       this
         .$api
         .post('/leads', { lead: this.lead })
-        .then(a => console.log(a))
+        .then(() => {
+          localStorage.setItem('assinou', 'true');
+          this.showForm = false;
+        })
         .catch(a => console.log(a));
     },
     windowWidth() {
