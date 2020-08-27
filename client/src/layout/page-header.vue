@@ -5,7 +5,7 @@
         <img
           src="@/assets/Logo__negativo.svg"
           alt="logo"
-          height="100"
+          :height="windowHeight()"
           class="page-header__logo"
         >
       </div>
@@ -19,6 +19,15 @@ import Container from '@/components/container';
 export default {
   components: {
     Container,
+  },
+  methods: {
+    windowHeight() {
+      if (window.innerWidth >= 1024) {
+        return 100;
+      }
+
+      return 90;
+    },
   },
 };
 </script>
