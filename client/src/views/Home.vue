@@ -16,6 +16,12 @@
       </container>
     </section>
 
+    <section class="section introduction-section">
+      <container>
+        <introduction />
+      </container>
+    </section>
+
     <section class="section manifest-section">
       <container>
         <manifest />
@@ -46,6 +52,7 @@ import PageHeader from '@/layout/page-header';
 import Container from '@/components/container';
 import LeadForm from '@/components/lead-form';
 import Manifest from '@/components/manifest';
+import Introduction from '@/components/introduction';
 import SignHero from '@/components/sign-hero';
 import Testimonials from '@/components/testimonials';
 
@@ -55,6 +62,7 @@ export default {
     Container,
     LeadForm,
     Manifest,
+    Introduction,
     SignHero,
     Testimonials,
     PageFooter,
@@ -92,9 +100,13 @@ export default {
   padding-bottom: var(--space-colossal);
 }
 
-.manifest-section {
+.introduction-section {
   color: white;
   background-color: var(--blue2);
+}
+
+.manifest-section {
+  background-color: var(--blue1);
 }
 
 .sign-hero-section {

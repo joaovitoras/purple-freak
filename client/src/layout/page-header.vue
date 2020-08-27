@@ -25,7 +25,7 @@ export default {
 
 <style lang="scss" scoped>
 .page-header {
-  background-color: var(--blue);
+  background-color: var(--blue2);
 }
 
 .page-header__logo-wrapper {
