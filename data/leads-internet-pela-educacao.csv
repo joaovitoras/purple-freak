@@ -1,90 +1,156 @@
-Email,Data da primeira conversão,Nome completo,Profissão
+email,data_ultima_conversao,full_name,profissao
+matheushp7@gmail.com,2020-08-26 16:49:15 -0300,Matheus Maia Roque,Professor
+azevedoedit@gmail.com,2020-08-26 14:23:26 -0300,Gabriel Azevedo de Souza,Estagiário
+maria.araujo@redealumni.com,2020-08-26 12:33:05 -0300,MARIA LUISA CARVALHO ARAUJO,analista de planejamento
+sergio.hilgert@redealumni.com,2020-08-26 12:13:19 -0300,Sergio Hilgert,Engenheiro de Software
+tnobili@gmail.com,2020-08-26 11:43:04 -0300,Tatiana Nobili França,jornalista
+willianuehara@gmail.com,2020-08-26 10:30:14 -0300,Willian Seiji Uehara,Gerente de produto
+sarahazevedosantos@hotmail.com,2020-08-26 10:23:58 -0300,Sarah Azevedo ,Customer Experience
+jessicamonteiro.jmb@gmail.com,2020-08-26 10:01:37 -0300,Jessica Monteiro Bicudo ,Custumer expirencie
+alexandre.miyoshi@quero.com,2020-08-26 09:59:36 -0300,Alexandre Toshihiko Miyoshi,Gestor de Operações
+godoi.ga@hotmail.com,2020-08-26 09:59:35 -0300,Gabriel Godoi,Designer
+marcos.toledo@redealumni.com,2020-08-26 09:58:21 -0300,Marcos Paulo Mendes Toledo,Estagiário em SiteOperations
+drs.diegosantos@gmail.com,2020-08-26 09:27:02 -0300,Diego Santos,Gestor Comercial
+valmir.junior@quero.com,2020-08-26 09:21:38 -0300,Valmir Junior,Developer
+andre.vitebo@redealumni.com,2020-08-26 00:11:33 -0300,André Alves Vitebo,Dev
+socorro.lima.queiroz@gmail.com,2020-08-25 20:44:00 -0300,Maria do Socorro de Lima,Professora
+pabloaugusto@zappts.com,2020-08-25 19:49:51 -0300,Pablo Augusto Gomes da Silva,Engenheiro
+alaporodrigues@hotmail.com,2020-08-25 19:43:54 -0300,Antonio Carlos Laporta Rodrigues,aposentado
+andre.panico73@gmail.com,2020-08-25 19:09:03 -0300,Andre Panico,diretor de vendas
+alexandre.kotz@gmail.com,2020-08-25 19:05:39 -0300,Alexandre Rodrigo Kotz,Autonomo
+lcsantos.quontel@hotmail.com,2020-08-25 18:30:11 -0300,Luiz Carlos dos Santos,Aposentado
+mknarciso@hotmail.com,2020-08-25 10:33:56 -0300,Murilo Klockner Narciso,Gerente de RH
+priscilamoreira@hotmail.com,2020-08-25 01:59:00 -0300,Priscila Rodrigues Moreira,Professora
+lucienebnaves@hotmail.com,2020-08-24 22:47:00 -0300,Luciene Bianucci Naves,Secretária
+ruvanibraz@gmail.com,2020-08-24 21:59:55 -0300,Ruvani Braz De Oliveira Rua ,Publicitária
+elisete.santos.baruel@gmail.com,2020-08-24 15:46:26 -0300,ELISETE OLIVEIRA SANTOS BARUEL,Diretora de Educação IEF
+celina.hirata@gmail.com,2020-08-24 14:25:45 -0300,Celina harumi hirata,Arquiteta
+lilianesilva.02@hotmail.com,2020-08-24 14:21:51 -0300,Liliane Aparecida da Silva cardoso,Estagiaria
+lucianenene178@gmail.com,2020-08-24 14:18:27 -0300,Luciane maria da silva santos,Autonomo
+ivo.sakamoto@gmail.com,2020-08-24 14:15:42 -0300,Ivo Alexandre Sakamoto,Arquiteto e Urbanista
+maertonjr@gmail.com,2020-08-24 13:56:31 -0300,Maerton Carlos de Souza Junior,Professor
+rbellingrodt@gmail.com,2020-08-24 11:00:46 -0300,Rodrigo Bellingrodt Marques Coelho ,Aposentado
+sergioalberti@gmail.com,2020-08-24 11:00:34 -0300,Sérgio Alberti Nóbrega de Oliveira,Designer
+ceresilva@gmail.com,2020-08-24 02:10:54 -0300,Célia Regina da Silva ,Professora aposentada
+jperusso@prof.educacao.sp.gov.br,2020-08-23 19:21:26 -0300,Jucelma Perusso,Professora
+carmem.silva2006@hotmail.com,2020-08-23 15:24:24 -0300,Carmem Lúcia Aparecida da Silva ,Professora 7
+glaucea3333@gmail.com,2020-08-23 12:04:20 -0300,Glaucea Aparecida da Silva,Professor
+ganem1914@gmail.com,2020-08-23 12:02:00 -0300,Carlos Ganem ,economista
+lilasansil@gmail.com,2020-08-23 11:04:00 -0300,Elizete Conceição dos Santos Silva,Adi
+re.rendaextra@gmail.com,2020-08-23 10:01:36 -0300,Renata Carvalho Dias ,Professor infantil
+cidafsantiago@hotmail.com,2020-08-23 09:49:19 -0300,Maria Aparecida Faria Santiago ,Professora
+fiuza.vera11@gmail.com,2020-08-23 08:41:15 -0300,Vera Lúcia fiuza,Aposentada
+claritadiaspaulo@gmail.com,2020-08-22 23:56:57 -0300, Clarita Dias,Promoter
+vois@terra.com.br,2020-08-22 23:35:58 -0300,Luís Carlos de Oliveira Costa,Economista
+maryana_nil@hotmail.com,2020-08-22 23:24:50 -0300,Mary Martins Hidalgo,Funcionária Pública Educação
+todanishimura@mac.com,2020-08-22 23:19:24 -0300,Paulo Toyosi Toda Nishimura,Engenheiro Metalúrgico
+afsantos1604@yahoo.com.br,2020-08-22 22:48:39 -0300,Afonso santos ,Engenheiro
+souzaritacristina@gmail.com,2020-08-22 22:39:21 -0300,Rita Cristina Souza,Psicopedagoga
+dani.luizon@gmail.com,2020-08-22 22:36:44 -0300,Daniela Parra Luizon Rodrigues,Professora
+giselagih@outlook.com,2020-08-22 21:08:06 -0300,Gisela América da Silva Oliveira,Servidor público municipal
+elianaueno@hotmail.com,2020-08-22 20:38:51 -0300,Eliana Roberto Ueno,Professora
+elislima_oliveira@hotmail.com,2020-08-22 20:11:24 -0300,Elisangela da Silva Lima Oliveira,Artesã
+adrianadalcin2@gmail.com,2020-08-22 19:22:21 -0300,Adriana Cristina Dalcin Carvalho,Coordenadora Pedagógica
+tsunadecida@hotmail.com,2020-08-22 19:00:07 -0300,Aparecida Regina Petronilho Begotti Cardoso,Pedagoga
+mvalmorais@gmail.com,2020-08-22 18:53:49 -0300,Maria Valdineia Morais Alexandre,Professora
+margarethprof@hotmail.com,2020-08-22 18:49:18 -0300,Margareth Auxiliadora Santos Carvalho,Supervisora da  educação especial
+deby35@gmail.com,2020-08-22 17:54:26 -0300,DÉBORA CRISTINA RIBEIRO ,Professor
+analucelijessica@yahoo.com.br,2020-08-22 17:32:38 -0300,Ana Paula Ferreira ,Professora
+professoraritamelo68@gmail.com,2020-08-22 16:51:57 -0300,Rita de Cássia Barbosa de Melo,Pedagoga
+siqueirapacheco@hotmail.com,2020-08-22 15:06:50 -0300,María Conceição de Siqueira Pacheco,Professora
+edujofra@gmail.com,2020-08-22 15:05:56 -0300,Eduardo Fram,Engenheiro
+elianadcassis@yahoo.com.br,2020-08-22 13:40:35 -0300,Eliana Dias da Costa,Auxiliar de desenvolvimento infantil
+gracisousa16@gmail.com,2020-08-22 13:37:24 -0300,Graci Ana P de Sousa ,Professora
+mi.moura37@hotmail.com,2020-08-22 13:28:27 -0300,Mirian Pereira da Moura ,Professora
+anclaudia776@gmail.com,2020-08-22 13:05:55 -0300,ANA CLAUDIA SILVA ,Professora
+juliana.rosa.coord@gmail.com,2020-08-22 13:02:32 -0300,Juliana Cristina B Rosa ,Professora
+ozires@uol.com.br,2020-08-22 12:40:47 -0300,Ozires Silva,Fundador da Embraer e Membro do Conselho da Ânima Educação
+simonefsavoldi@gmail.com,2020-08-22 12:27:22 -0300,SIMONE DE FÁTIMA SAVOLDI PEREIRA,Professora
 cirlenejuliani@gmail.com,2020-08-22 11:15:50 -0300,Cirlene Marcondes saudades,Professora
 fernandeshsc@gmail.com,2020-08-22 11:09:20 -0300,Helena S C Fernandes,Professora
-matoscamilo11@gmail.com,2020-08-22 10:48:00 -0300,Andreia matos Camilo de Souza Gabriel.,Professora
-j.t.biomedica@gmail.com,2020-08-22 10:23:29 -0300,Jéssica Tereza Guedes de Oliveira Moraes,Biomédica
+matoscamilo11@gmail.com,2020-08-22 10:48:00 -0300,Andreia matos Camilo de Souza Gabriel. ,Professora
+j.t.biomedica@gmail.com,2020-08-22 10:23:29 -0300,Jéssica Tereza Guedes de Oliveira Moraes ,Biomédica
 dinhagusmao@hotmail.com,2020-08-22 10:16:22 -0300,Sandra Cristina Gusmão Silva,Professora
-leonorfreitasrodrigues@hotmail.com,2020-08-22 10:06:33 -0300,Leonor Amélia Freitas Rodrigues,Professora
+leonorfreitasrodrigues@hotmail.com,2020-08-22 10:06:33 -0300,Leonor Amélia Freitas Rodrigues ,Professora
 elena.sjc@supersan.com.br,2020-08-22 09:23:43 -0300,Elena Kimie Tateishi,Administradora
 andreaiamanda@outlook.com,2020-08-22 09:12:53 -0300,Andréa Regina Pascoal Rui,Auxiliar de Serviços Gerais
-iolandagrconfec@hotmail.com,2019-10-07 00:26:24 -0300,IOLANDA RAMOS GONÇALVES,Professora
-svmaltasantos@gmail.com,2020-08-22 09:06:26 -0300,Sílvia Valéria de Oliveira Malta Santos,Professora
-luciaugusto2016@gmail.com,2020-08-22 09:02:43 -0300,Luciana Vieira Augusto,Professora
-leyylahkassia@gmail.com,2020-08-22 09:00:18 -0300,Leila De Cassia Prado,Professora
-silvanapmoraes@hotmail.com,2020-08-22 08:25:18 -0300,Silvana Aparecida Procópio de Moraes,Professora
+iolandagrconfec@hotmail.com,2020-08-22 09:07:19 -0300,IOLANDA RAMOS GONÇALVES ,Professora
+svmaltasantos@gmail.com,2020-08-22 09:06:26 -0300,Sílvia Valéria de Oliveira Malta Santos ,Professora
+luciaugusto2016@gmail.com,2020-08-22 09:02:43 -0300,Luciana Vieira Augusto ,Professora
+leyylahkassia@gmail.com,2020-08-22 09:00:18 -0300,Leila De Cassia Prado ,Professora
+silvanapmoraes@hotmail.com,2020-08-22 08:25:18 -0300,Silvana Aparecida Procópio de Moraes ,Professora
 daisemqc@gmail.com,2020-08-22 08:15:59 -0300,Daise Milene Quiles Camargo Airoldi,Professora
-fa.kakrauss@gmail.com,2020-08-22 08:12:56 -0300,Fabiana Khalil Abbas krauss,Pedagoga
-karinamuller@yahoo.com.br,2020-08-22 08:10:21 -0300,Karina Mara Muller Rufino,professora
+fa.kakrauss@gmail.com,2020-08-22 08:12:56 -0300,Fabiana Khalil Abbas krauss ,Pedagoga
+karinamuller@yahoo.com.br,2020-08-22 08:10:21 -0300,Karina Mara Muller Rufino ,professora
 marlykuriki65@gmail.com,2020-08-22 07:39:18 -0300,Marly kuriki,Professora
 silvanacarlasiqueira@gmail.com,2020-08-22 07:06:51 -0300,Silvana Ribeiro,Professora
-roselene1601@gmail.com,2020-08-22 02:32:58 -0300,Roselene Aparecida Leite Felix de Oliveira,professora
+roselene1601@gmail.com,2020-08-22 02:32:58 -0300,Roselene Aparecida Leite Felix de Oliveira ,professora
 marilu.cursino@uol.com.br,2020-08-22 00:50:11 -0300,Marilu G C Figueiredo,Do lar
 sazinhaprof@gmail.com,2020-08-22 00:32:52 -0300,Samanta da Silva,Pedagoga
 elianeeueumesma@gmail.com,2020-08-22 00:23:15 -0300,Eliane Bustamante Moreira,Professora
 claudia.vilela@servidor.educacao.sp.gov.br,2020-08-22 00:14:27 -0300,Cláudia Renata Santos Vilela,Professora
-elainefelixleitee@ymail.com,2020-08-21 23:56:21 -0300,Elaine Aparecida Félix LEITE,Professora
+elainefelixleitee@ymail.com,2020-08-21 23:56:21 -0300,Elaine Aparecida Félix LEITE ,Professora
 bethguadalupe@hotmail.com,2020-08-21 23:38:22 -0300,Elizabet Guadalupe Teixeira,Professora
 deboramacielkimura@gmail.com,2020-08-21 23:28:03 -0300,Débora da Paz Maciel Kimura,Professora
-dricassia@hotmail.com,2020-08-21 23:19:26 -0300,Adriana Cassia Silva Kurita,Professora
+dricassia@hotmail.com,2020-08-21 23:19:26 -0300,Adriana Cassia Silva Kurita ,Professora
 aitagaki@uol.com.br,2020-08-21 23:11:49 -0300,Armando Riuti Itagaki,Aposentado
-luanacard13@gmail.com,2020-08-21 23:10:37 -0300,Luana Cardoso Santos,Pedagoga
-daniela.madalena10@gmail.com,2020-08-21 22:56:40 -0300,Daniela Aparecida Madalena,Professora
+luanacard13@gmail.com,2020-08-21 23:10:37 -0300,Luana Cardoso Santos ,Pedagoga
+daniela.madalena10@gmail.com,2020-08-21 22:56:40 -0300,Daniela Aparecida Madalena ,Professora
 soninha30@hotmail.com,2020-08-21 22:53:47 -0300,Sonia Alves Rosa,OSM
-reiscds@gmail.com,2020-08-21 22:47:43 -0300,Claudia Daniella Silva Reis,Professora
+reiscds@gmail.com,2020-08-21 22:47:43 -0300,Claudia Daniella Silva Reis ,Professora
 mpfrazao@uol.com.br,2020-08-21 22:40:32 -0300,Marina Frazão,Dona de casa
-renata.dileo@edujacarei.sp.gov.br,2020-08-21 22:39:49 -0300,Renata de Oliveira Diléo,Professora
+renata.dileo@edujacarei.sp.gov.br,2020-08-21 22:39:49 -0300,Renata de Oliveira Diléo ,Professora
 marliantonelli@hotmail.com,2020-08-21 22:19:33 -0300,Marli Antonelli,Financeira
-maryana_nil@hotmail.com,2020-08-21 21:44:43 -0300,Mary Martins Hidalgo,Funcionária Pública Educação
 adriellydrisantos@gmail.com,2020-08-21 21:25:09 -0300,Adrielly dos Santos Custodio,Professora
-ailton.1957@yahoo.com.br,2020-08-21 20:42:40 -0300,Aílton Gonçalves,Aposentado
+ailton.1957@yahoo.com.br,2020-08-21 20:42:40 -0300,Aílton Gonçalves ,Aposentado
 vanessadamazio08@gmail.com,2020-08-21 20:19:36 -0300,Vanessa Aparecida de Siqueira Alves Damazio,Professora
 jacquelineserafini62@gmail.com,2020-08-21 20:04:28 -0300,Jacqueline Marie Serafini,Orientador Pedagógico
 diego.messias8@gmail.com,2020-08-21 19:55:10 -0300,Diego Messias Dos Santos Serafim,Servidor público
 danijus2012@hotmail.com,2020-08-21 19:22:17 -0300,Daniela Justiniano Teixeira Oliveira,Pedagoga
 catia.pedagoga@outlook.com,2020-08-21 19:04:24 -0300,Cátia Gonçalves,Professora
 danielmsilverio@gmail.com,2020-08-21 18:01:28 -0300,Daniel Mariano Silvério,Desenvolvedor
-anesiodonascimento@gmail.com,2020-08-21 17:56:16 -0300,Anesio do nascimento,Aposentado
+anesiodonascimento@gmail.com,2020-08-21 17:56:16 -0300,Anesio do nascimento ,Aposentado
 juliabevilaquaj@gmail.com,2020-08-21 17:52:21 -0300,julia,professor
-tfavelino2020@gmail.com,2020-08-21 17:49:17 -0300,Avelino dos Reis,Aposentado
-alayde.santos@uol.com.br,2020-08-21 17:41:07 -0300,Alayde de Oliveira Santos,Economista
-elianeguimaraespescara@gmail.com,2020-08-21 17:34:10 -0300,Eliane Cristina Guimarães Barbosa Pescara,Cantora
+tfavelino2020@gmail.com,2020-08-21 17:49:17 -0300,Avelino dos Reis ,Aposentado
+alayde.santos@uol.com.br,2020-08-21 17:41:07 -0300,Alayde de Oliveira Santos ,Economista
+elianeguimaraespescara@gmail.com,2020-08-21 17:34:59 -0300,Eliane Cristina Guimarães Barbosa Pescara ,Cantora
 giselma.souza@hotmail.com,2020-08-21 17:11:39 -0300,Giselma Alves de Souza,Professora
-nelsontaveira@yahoo.com.br,2020-08-21 17:11:04 -0300,Nelson de Souza Taveira,Militar aposentado
+nelsontaveira@yahoo.com.br,2020-08-21 17:11:14 -0300,Nelson de Souza Taveira,Militar aposentado
 amorimmarques57@yahoo.com,2020-08-21 16:33:27 -0300,Cristina Marques de Amorim,Aposentada
 schubacaroglo@gmail.com,2020-08-21 16:29:01 -0300,Schumager Bacaroglo,Analista de Marketing
 serrano.marilda@gmail.com,2020-08-21 16:02:37 -0300,Marilda de Oliveira Serrano,psicóloga
 rubenskiso@yahoo.com.br,2020-08-21 15:51:20 -0300,Rubens Kiso,Economista
 mesquita_76@yahoo.com.br,2020-08-21 15:39:14 -0300,Rosângela Aparecida da Silva Mesquita,Agente de Desenvolvimento Infantil
-eudes.rijo@uol.com.br,2020-08-21 15:17:10 -0300,Eudes Rijo de Figueiredo,Administrador de Empresas
+eudes.rijo@uol.com.br,2020-08-21 15:28:43 -0300,Eudes Rijo de Figueiredo ,Administrador de Empresas
 saversa@gmail.com,2020-08-21 15:24:07 -0300,Sonia Regina Aversa,Autônoma
-tadeuyoshida@gmail.com,2020-08-21 15:22:17 -0300,Tadeu Yoshida,Engenheiro
-otavio.pedrazzoli@quero.com,2020-05-26 10:07:16 -0300,Otávio P,Marketing
-chrisneure.ferreira@gmail.com,2020-08-21 15:14:05 -0300,Chrisneire Ferreira Candal,Pedagoga
+tadeuyoshida@gmail.com,2020-08-21 15:22:17 -0300,Tadeu Yoshida ,Engenheiro
+otavio.pedrazzoli@quero.com,2020-08-21 15:20:51 -0300,Otávio P,Marketing
+chrisneure.ferreira@gmail.com,2020-08-21 15:14:05 -0300,Chrisneire Ferreira Candal ,Pedagoga
 sergioalencar67@gmail.com,2020-08-21 15:07:08 -0300,Sergio Alencar,Designer
-gislene_iatallese@yahoo.com,2020-08-21 15:06:54 -0300,Gislene de Cassia Serafim Iatallese,Psicóloga
+gislene_iatallese@yahoo.com,2020-08-21 15:06:54 -0300,Gislene de Cassia Serafim Iatallese ,Psicóloga
 robertamantovani@hotmail.com,2020-08-21 15:06:05 -0300,Roberta Mantovani,Pedagogia
 erorotaryjac@gmail.com,2020-08-21 15:05:37 -0300,Erotildes Martins da Cruz,Professor
 silviap1399@gmail.com,2020-08-21 15:04:03 -0300,Silvia Pereira Fernandes,Professora
-zancampos@hotmail.com,2020-08-21 15:01:10 -0300,Fábio Zan de Campos,Psicólogo
+zancampos@hotmail.com,2020-08-21 15:01:10 -0300,Fábio Zan de Campos ,Psicólogo
 coachtelmamorales@gmail.com,2020-08-21 15:00:32 -0300,Telma Nanci Morales Silva,Coah
-antonialucineire74@gmail.com,2020-08-21 14:54:55 -0300,Antônia Lucineire de Almeida,Professora
+antonialucineire74@gmail.com,2020-08-21 14:54:55 -0300,Antônia Lucineire de Almeida ,Professora
 businessdanilo@gmail.com,2020-08-21 14:30:59 -0300,Danilo Klimeika Zanutto,Administrador
 serdianalopes291@gmail.com,2020-08-21 13:52:27 -0300,Serdiana Lopes Pimenta,Do lar
 santosnylmara@gmail.com,2020-08-21 13:47:37 -0300,Nilmara Santos Leite,Professora
-anamaria.bspinheiro@hormail.com,2020-08-21 13:42:53 -0300,Ana Maria Pinheiro,Empresaria
+anamaria.bspinheiro@hormail.com,2020-08-21 13:42:53 -0300,Ana Maria Pinheiro ,Empresaria
 klebergrasso@gmail.com,2020-08-21 13:35:13 -0300,Kleber Grasso Rodrigues,Engenheiro
-denize.domingues@outlook.com,2020-08-21 13:34:46 -0300,Denize Domingues de Oliveira,Ptofessora
+denize.domingues@outlook.com,2020-08-21 13:34:46 -0300,Denize Domingues de Oliveira ,Ptofessora
 apsficher@yahoo.com.br,2020-08-21 13:28:30 -0300,Ana Paula Silva Freitas,Administrativo Financeiro
 nina_aurus@yahoo.com.br,2020-08-21 13:20:34 -0300,Regina C Moraes,Professora
 driballarin@gmail.com,2020-08-21 13:13:48 -0300,Adriana Pontes Ballarin,Professora
 nelicarvalho3@gmail.com,2020-08-21 13:06:03 -0300,Neli Carvalho Ribeiro,Agente serviço municipal
 francisco@sousaroberto.adm.br,2020-08-21 12:59:42 -0300,Francisco de Sousa Roberto Junior,Educador profissional
 mtcyrini@gmail.com,2020-08-21 12:55:19 -0300,Maria Yhwreza Ferreira Cyrino,Secretária de Educação de Jacareí
-marlicamposgalvaoleite7@gmail.com,2020-08-21 12:53:44 -0300,Maria Marli Campos Galvão Leite,Professora
-solangegrilo@hotmail.com,2020-08-21 12:46:55 -0300,Solange de Fátima bichara grilo,Diretora de escola
+marlicamposgalvaoleite7@gmail.com,2020-08-21 12:53:44 -0300,Maria Marli Campos Galvão Leite ,Professora
+solangegrilo@hotmail.com,2020-08-21 12:46:55 -0300,Solange de Fátima bichara grilo ,Diretora de escola
 catter71@hotmail.com,2020-08-21 12:40:41 -0300,Antonio Jose CATTER,Engenheiro
 lmsjc90@gmail.com,2020-08-21 12:19:39 -0300,Luciana Machado,Aposentada
-leia6844@hotmail.com,2020-08-21 12:16:40 -0300,Vanderleia Romana de Souza Faria,Cabeleireira
+leia6844@hotmail.com,2020-08-21 12:16:40 -0300,Vanderleia Romana de Souza Faria ,Cabeleireira
 talitafoxmartins@gmail.com,2020-08-21 12:16:06 -0300,Talita Nogueira Martins,Estudante de Matemática
 jebressan@gmail.com,2020-08-21 12:15:00 -0300,Jeferson de Paula Bressan,Engenheiro
 krramos14@gmail.com,2020-08-21 12:14:34 -0300,Ricardo Ramos,ADM. Empresa
@@ -95,24 +161,24 @@ meiriani.pavret@hotmail.com,2020-08-21 12:06:04 -0300,Meiriani Pavret dos Santos
 sfsmiguel@bol.com.br,2020-08-21 12:04:39 -0300,SIMONE FELIPE DA SILVA,Assistente Social
 alrosa13@gmail.com,2020-08-21 12:04:38 -0300,Álvaro Rosa,Designer
 solfroberto@hotmail.com,2020-08-21 12:02:23 -0300,Solange Ferreira Robertp,Secretária
-coldzap@gmail.com,2020-08-21 12:01:36 -0300,GABRIEL FERREIRA ROBERTO,Atendente
+coldzap@gmail.com,2020-08-21 12:01:37 -0300,GABRIEL FERREIRA ROBERTO,Atendente
 infantozzi.m@gmail.com,2020-08-21 12:00:35 -0300,Marco Alexandre Manha Infantozzi,Engenheiro
-ze.carlos388@gmail.com,2020-08-21 11:57:58 -0300,José Carlos da conceição,Cozinheiro
+ze.carlos388@gmail.com,2020-08-21 11:59:35 -0300,José Carlos da conceição,Cozinheiro
 silviabardy@hotmail.com,2020-08-21 11:59:09 -0300,Silvia Teixeira Bardy,Professor
 grahenriques412@gmail.com,2020-08-21 11:58:14 -0300,Maria das graças Vieira henriques,Aposentada
-edison.henriques@prof.bsp.edu.br,2020-08-21 11:47:59 -0300,Edison Henriques Jr.,Consultor Empresarial e Professor EMBA
+edison.henriques@prof.bsp.edu.br,2020-08-21 11:48:24 -0300,Edison Henriques Jr.,Consultor Empresarial e Professor EMBA
 asbir@uol.com.br,2020-08-21 11:48:17 -0300,Spiridon Aziz Araman,Representante Tecnico
-sorelaro@gmail.com,2020-08-21 11:47:59 -0300,Sonia Rodrigues,Advogada
+sorelaro@gmail.com,2020-08-21 11:47:59 -0300,Sonia Rodrigues ,Advogada
 lcp402@gmail.com,2020-08-21 11:47:46 -0300,Luiz Carlos Peagno,aposentado
 juliabalencar@gmail.com,2020-08-21 11:45:25 -0300,Julia Bezerra de Alencar,publicitária
-carlos.alencar696@gmail.com,2020-08-21 11:41:09 -0300,Carlos Alencar,Técnico Segurança do trabalho
+carlos.alencar696@gmail.com,2020-08-21 11:41:09 -0300,Carlos Alencar ,Técnico Segurança do trabalho
 mariluciacursino@gmail.com,2020-08-21 11:37:11 -0300,Marilucia Gonzaga Cursino de Miranda,Secretaria
-solanunes2013@gmail.com,2020-08-21 11:31:30 -0300,SOLANGE RODRIGUES DA SILVA NUNES,Consultora
+solanunes2013@gmail.com,2020-08-21 11:35:09 -0300,SOLANGE RODRIGUES DA SILVA NUNES,Consultora
 ecoelho49@yahoo.com.br,2020-08-21 11:31:53 -0300,Eduardo Souza Coelho,Engenheiro
 intavic625@hotmail.com,2020-08-21 09:40:44 -0300,Ingrid Tadeu Victor,Professora
-financeiro@invoz.br,2020-08-21 08:55:53 -0300,Izilda de Fátima Victor,diretor financeiro
+financeiro@invoz.br,2020-08-21 08:55:53 -0300,Izilda de Fátima Victor ,diretor financeiro
 ramirocprado@hotmail.com,2020-08-21 05:57:33 -0300,Ramiro Prado,Engenheiro
-melo_macedo@hotmail.com,2020-08-21 05:35:25 -0300,Carolina Mesquita,Bancaria
+melo_macedo@hotmail.com,2020-08-21 05:35:25 -0300,Carolina Mesquita ,Bancaria
 paulo.outi@gmail.com,2020-08-21 02:20:20 -0300,Paulo Outi,Engenheiro
 rjos1910@gmail.com,2020-08-20 22:34:16 -0300,Rodolfo José de Oliveira Santos,Engenheiro Eletricista
 julia.alves@gmail.com,2020-08-20 20:20:51 -0300,Julia Rodrigues Alves,Analista de Produto
@@ -122,22 +188,20 @@ amarcus@gelovale.com.br,2020-08-20 19:42:47 -0300,Antonio Marcus Santos,Comercia
 fmsegre@gmail.com,2020-08-20 18:35:47 -0300,Fabio Mattos Segrr,Engenheiro
 fatbear@uol.com.br,2020-08-20 18:16:30 -0300,Sylvio Deutsch,tradutor
 mligia.moreira@gmail.com,2020-08-20 18:03:13 -0300,Maria Lígia Moreira,Cientista Política
-sylvanadelicato@gmail.com,2020-08-20 17:44:58 -0300,Sylvana Christina Delicato,bancária
-elisete.santos.baruel@gmail.com,2020-08-20 17:28:04 -0300,ELISETE OLIVEIRA SANTOS BARUEL,Diretora de Educação
-juliocsaoliveira@gmail.com,2020-07-09 16:56:56 -0300,julio cesar de oliveira,gerente de produto
+sylvanadelicato@gmail.com,2020-08-20 17:44:58 -0300,Sylvana Christina Delicato ,bancária
+juliocsaoliveira@gmail.com,2020-08-20 17:24:40 -0300,julio cesar de oliveira,gerente de produto
 elvisdelima89@gmail.com,2020-08-20 17:14:30 -0300,Elvis Denis Lemos de Lima,Engineering Manager
-thisgo.o.alves@gmail.com,2020-08-17 16:00:02 -0300,Thiago de Oliveira Alves,Desenvolvedor
+thisgo.o.alves@gmail.com,2020-08-20 16:56:48 -0300,Thiago de Oliveira Alves,Desenvolvedor
 mateusemarques66@gmail.com,2020-08-20 15:21:05 -0300,Mateus Enrique Marques,Estudante
 carolinemendes@usp.br,2020-08-20 13:42:20 -0300,Caroline Mendes,Coordenadora de Comunicação
 levykais@outlook.com,2020-08-20 13:26:42 -0300,kais bentubo,Gerente de contas
 valeria2008.faria@gmail.com,2020-08-20 12:53:35 -0300,Valéria Cristina de Faria,Engenheira
 oliveira@invoz.org,2020-08-20 12:33:19 -0300,Manoel de oliveira,Empresario
 deborafcastro@uol.com.br,2020-08-20 12:10:03 -0300,Débora de Freitas Castro,Psicóloga
-lucienebnaves@hotmail.com,2020-08-20 11:58:54 -0300,Luciene Bianucci Naves,Secretária
-cris-samaria@uol.com.br,2020-08-20 08:37:19 -0300,Cristiane Samária,Pesquisadora
+cris-samaria@uol.com.br,2020-08-20 08:37:19 -0300,Cristiane Samária ,Pesquisadora
 rafaelatiemy@hotmail.com,2020-08-20 07:49:10 -0300,Rafaela Tiemy Mendonça Hatakeyama,Estudante
 piazentini@yahoo.com,2020-08-20 05:24:35 -0300,luiz henrique piazentini,Engenheiro
-sydney@b2b-a.us,2019-10-24 18:35:24 -0300,Sydney Ávila Filho,Especialista em Vendas
+sydney@b2b-a.us,2020-08-19 22:48:54 -0300,Sydney Ávila Filho,Especialista em Vendas
 gustavo.guimaraes18@gmail.com,2020-08-19 17:48:04 -0300,Gustavo Guimarães Faria,Programador
 natasha.o.monteiro@gmail.com,2020-08-19 15:38:59 -0300,Natasha Monteiro,Jornalista
 alexmacedop@gmail.com,2020-08-19 15:08:31 -0300,ALEX LEE MACEDO PEREIRA,Roteirista
@@ -146,68 +210,67 @@ celsosantosjr@gmail.com,2020-08-19 10:50:02 -0300,Celso F Santos Jr,Engemheiro
 biancamoraes2272@gmail.com,2020-08-19 10:19:22 -0300,Bianca Silva de Moraes,Customer Support
 vitorbeer92@gmail.com,2020-08-19 09:46:40 -0300,Vitor Ferreira Beer,Engenheiro
 cleo.ibelli@quero.com,2020-08-19 09:46:32 -0300,Cleo Ibelli Coelho Netto,jornalista
-junarede@gmail.com,2020-08-19 07:46:46 -0300,Junia Rodrigues Alves,Bancária
+junarede@gmail.com,2020-08-19 07:46:46 -0300,Junia Rodrigues Alves ,Bancária
 luca_dias1@hotmail.com,2020-08-18 22:16:07 -0300,Lucas ferreira dias coelho,Fotografo
 gvnreis@gmail.com,2020-08-18 18:56:05 -0300,Gustavo Vianna Novaes Reis,Product Manager
 kelvynvsr@gmail.com,2020-08-18 18:26:14 -0300,Kelvyn Vayti Suzuki Rosinski,Cientista de dados
 marivillela22@hotmail.com,2020-08-18 18:21:39 -0300,Mariana Villela,Analista de mídia
-ricardofontesmendes@gmail.com,2020-07-28 18:51:56 -0300,Ricardo Fontes Mendes,Jornalista
-salleskarolina29@gmail.com,2020-08-18 18:02:20 -0300,Karolina cristiny dos santos Sales,Auxiliar de enfermagem
+ricardofontesmendes@gmail.com,2020-08-18 18:09:36 -0300,Ricardo Fontes Mendes,Jornalista
+salleskarolina29@gmail.com,2020-08-18 18:02:20 -0300,Karolina cristiny dos santos Sales ,Auxiliar de enfermagem
 sidurtbh93@gmail.com,2020-08-18 17:44:10 -0300,Simone Maria Furtado de Oliveira,Odontologa
 emilylopes734@gmail.com,2020-08-18 17:33:49 -0300,Emily Lopes Santana de Menezes,Desenvolvedor de Sistemas
-sinara.santos28@gmail.com,2020-08-18 17:29:31 -0300,Sinara Carvalho,Professora
+sinara.santos28@gmail.com,2020-08-18 17:29:31 -0300,Sinara Carvalho ,Professora
 bbia57747@gmail.com,2020-08-18 17:24:59 -0300,Beatriz B,N
-lorenna.alves@melhorescola.net,2019-10-24 18:09:45 -0300,Lorenna Barreto Alves Serafim,Gerente de Qualidade
-ramuel.cardoso@quero.com,2019-10-24 18:29:08 -0300,Ramuel dos Santos Cardoso,Gerente de contas
+lorenna.alves@melhorescola.net,2020-08-18 16:38:08 -0300,Lorenna Barreto Alves Serafim,Gerente de Qualidade
+ramuel.cardoso@quero.com,2020-08-18 16:28:18 -0300,Ramuel dos Santos Cardoso,Gerente de contas
 sou@oand.re,2020-08-18 16:24:25 -0300,André Filgueira Simões,Gerente de produto
-maria.araujo@redealumni.com,2020-08-18 16:19:19 -0300,MARIA LUISA CARVALHO ARAUJO,analista de planejamento
-gustavo.pereira@redealumni.com,2020-03-25 17:08:09 -0300,Gustavo Soares Pereira,Analista de Qualidade
+gustavo.pereira@redealumni.com,2020-08-18 15:58:18 -0300,Gustavo Soares Pereira,Analista de Qualidade
 emilycezario@hotmail.com,2020-08-18 15:47:42 -0300,Emily Nascimento da Cunha,Assistente administrativo
 rafaelarnc@gmail.com,2020-08-18 15:44:09 -0300,Rafael Cunha,Marketing
 delima.gomes@hotmail.com,2020-08-18 15:38:00 -0300,Leonardo Bruno de Lima Gomes,Servidor público
 nubiaaparecida6@gmail.com,2020-08-18 15:31:14 -0300,Nubia Aparecida de Lima Silva,Estudante
-sabrinakm.goncalves96@gmail.com,2020-08-18 14:45:19 -0300,Sabrina Kathleen Mendes Gonçalves,Consultor Comercial Jr
+sabrinakm.goncalves96@gmail.com,2020-08-18 15:25:58 -0300,Sabrina Kathleen Mendes Gonçalves,Consultor Comercial Jr
 maria.toledo@redealumni.com,2020-08-18 15:23:35 -0300,Maria Clara de Toledo Alves,gerente comercial
 dev.lenonferreira@gmail.com,2020-08-18 15:11:06 -0300,Lenon Anderson Alves Ferreira Junior,Estagiário em Website Operations
 victoria.santos@redealumni.com,2020-08-18 15:08:59 -0300,Victória Caroline Silva Santos,Consultora Comercial
-raquel.ribeiro@redealumni.com,2020-05-05 12:15:08 -0300,Raquel Ribeiro Melo,Supervisor comercial
-claudiane.amaral@redealumni.com,2020-02-19 08:10:53 -0300,Claudiane Amaral,Consultora Comercial Jr.
-joaomuraro@hotmail.com,2020-08-17 15:55:24 -0300,João Victor Muraro,Estagiário de TI
+raquel.ribeiro@redealumni.com,2020-08-18 15:05:54 -0300,Raquel Ribeiro Melo,Supervisor comercial
+claudiane.amaral@redealumni.com,2020-08-18 15:04:21 -0300,Claudiane Amaral,Consultora Comercial Jr.
+joaomuraro@hotmail.com,2020-08-18 14:56:35 -0300,João Victor Muraro,Estagiário de TI
 matias.igor97@gmail.com,2020-08-18 14:54:38 -0300,Igor Matias Szavka dos Anjos,Supervisor Comercial
-mfernanda.alencar03@gmail.com,2020-08-18 14:45:34 -0300,Maria Fernanda Rodrigues de Alencar,Consultor Comercial
+mfernanda.alencar03@gmail.com,2020-08-18 14:45:35 -0300,Maria Fernanda Rodrigues de Alencar,Consultor Comercial
 luclks36@gmail.com,2020-08-18 14:43:55 -0300,Lucas Oliveira Lopes da Silva,Consultor Comercial
-james.silva@redealumni.com,2019-05-17 20:53:52 -0300,James da Silva,Gerente de Customer Success
+james.silva@redealumni.com,2020-08-18 14:43:40 -0300,James da Silva,Gerente de Customer Success
 larissascg@hotmail.com,2020-08-18 14:43:07 -0300,Larissa dos Santos Costa Gonçalves,Consultor Comercial Jr.
 giovanna.carotti@hotmail.com,2020-08-18 14:43:02 -0300,Giovanna Carotti,Supervisora comercial
 anavitoria122.av@gmail.com,2020-08-18 14:39:04 -0300,Ana Vitória do Nascimento,Supervisora Comercial
-mrenata.rl@hotmail.com,2019-07-18 14:25:43 -0300,Maria Renata Ramirez Lopes,Estudante
+mrenata.rl@hotmail.com,2020-08-18 14:32:38 -0300,Maria Renata Ramirez Lopes,Estudante
 elisa.matheus@redealumni.com,2020-08-18 14:32:28 -0300,Elisa Mellado Matheus,Estudante
 mathias.sallit@quero.com,2020-08-18 14:28:22 -0300,Mathias Barreto Sallit,Jornalista
 babi.oliveira174@outlook.com,2020-08-18 14:23:36 -0300,Ana Barbara de Oliveira Silva,Promotora de Vendas
 marryelles@hotmail.com,2020-08-18 14:19:53 -0300,Marryelle Stefani Florido,Engenheira Química
-juliana.costa@redealumni.com,2020-05-05 15:01:37 -0300,JULIANA COSTA SILVA,Analista de Vendas
+juliana.costa@redealumni.com,2020-08-18 14:18:52 -0300,JULIANA COSTA SILVA,Analista de Vendas
 gustavobcgama@gmail.com,2020-08-18 14:18:51 -0300,Gustavo Busca da Cruz Gama,Lider Comercial
 presidencia@invoz.org,2020-08-18 14:12:59 -0300,Neide Pereira Pinto,Diretora-presidente
 neide@somoseditora.com.br,2020-08-18 14:12:10 -0300,Neide Pereira Pinto,Diretora-presidente
 campos.fideles@gmail.com,2020-08-18 12:56:09 -0300,Matheus Fideles,Gerente Comercial
 marilenesg.mg@gmail.com,2020-08-18 11:23:10 -0300,Marilene de Souza Gonçalves,professora aposentada
-moyra.ceneviva@quero.com,2020-03-24 12:52:54 -0300,Moyra Rangel Ceneviva,HR Business Partner
+moyra.ceneviva@quero.com,2020-08-18 10:47:05 -0300,Moyra Rangel Ceneviva,HR Business Partner
 mlibertino@live.com,2020-08-18 10:26:11 -0300,Mário José Libertino,Hoteleiro
-cacauvargas3@gmail.com,2020-08-18 09:57:59 -0300,Claudia Vargas,Professora
+cacauvargas3@gmail.com,2020-08-18 09:57:59 -0300,Claudia Vargas ,Professora
 danibcampos@hotmail.com,2020-08-18 09:57:56 -0300,Daniella Bernardi campos,Empresária
 monicacouto50@hotmail.com,2020-08-18 09:42:44 -0300,Monica Dias Coelho do Couto e Silva,Corretora de Imóveis
-julio.sunsay@gmail.com,2020-08-18 09:35:56 -0300,Julio Melo,Analista de Marketing
-diane@quero.com,2019-07-12 18:37:36 -0300,Diane Cristina da Silva,Gerente de Contas
-julio.melo@redealumni.com,2019-05-31 14:20:40 -0300,Julio Cezar Melo Oliveira,Analista de Marketing
+julio.sunsay@gmail.com,2020-08-18 09:35:56 -0300,Julio Melo ,Analista de Marketing
+diane@quero.com,2020-08-18 09:35:40 -0300,Diane Cristina da Silva,Gerente de Contas
+julio.melo@redealumni.com,2020-08-18 09:35:19 -0300,Julio Cezar Melo Oliveira,Analista de Marketing
 alexia-campos@hotmail.com,2020-08-18 09:13:49 -0300,Aléxia Campos santos,Gerente comercial
 sorrocampos@gmail.com,2020-08-18 09:02:51 -0300,Soraia Campos,Empredaria
-pedro.adas@gmail.com,2020-08-18 08:59:35 -0300,Pedro Adas,Engenheiro
+pedro.adas@gmail.com,2020-08-18 09:00:02 -0300,Pedro Adas,Engenheiro
 yasminlagea@hotmail.com,2020-08-17 23:03:10 -0300,Yasmin Lage Altivo,Estudante
 janklever@gmail.com,2020-08-17 21:26:14 -0300,Jan Klever,Designer
-isabella.kalid@gmail.com,2020-08-17 21:16:02 -0300,Isabella Cr. Kalid Ribeiro,Gerente de Contas
-luangabriel70@gmail.com,2020-08-17 21:13:50 -0300,Luan Gabriel Silva Fernandes,Cientista de Dados
+isabella.kalid@gmail.com,2020-08-17 21:16:02 -0300,Isabella Cr. Kalid Ribeiro ,Gerente de Contas
+luangabriel70@gmail.com,2020-08-17 21:13:50 -0300,Luan Gabriel Silva Fernandes ,Cientista de Dados
 juliespin@gmail.com,2020-08-17 20:18:51 -0300,Juliana T Espinosa Gerevini,Assistente Executiva
-josueguarda@hotmail.com,2020-08-17 20:13:43 -0300,Josue guarda,microempresário
+josueguarda@hotmail.com,2020-08-17 20:14:29 -0300,Josue guarda,microempresário
 yurirsilva@outlook.com.br,2020-08-17 19:48:33 -0300,YURI APARECIDO REIS SILVA,Assistente de CX
 luiza_plush@hotmail.com,2020-08-17 19:47:22 -0300,Luiza Paiva De Angelis,estudante
 cozinha_ciag@hotmail.com,2020-08-17 19:46:20 -0300,Glaucia De Paiva Pires,Artesã
@@ -215,12 +278,12 @@ anag_29@hotmail.com,2020-08-17 19:22:30 -0300,Ana Gabriela Roman Reina,Engenheir
 vinicius.pshibukawa@gmail.com,2020-08-17 19:18:25 -0300,Vinícius Pereira Shibukawa,Estudante
 celso.mattheus@gmail.com,2020-08-17 19:05:19 -0300,Celso Mattheus Cantanhede Silva,Cientista de Dados
 carolinapiresa@hotmail.com,2020-08-17 19:02:58 -0300,Carolina Pires Alves,Dentista
-kathleen.oliveira@redealumni.com,2020-01-20 16:30:18 -0300,Kathleen Amaro Oliveira,Líder Comercial
-monica.rodrigues08@yahoo.com.br,2020-08-17 18:36:30 -0300,Monica Rodrigues de Oliveira,Vendedora
+kathleen.oliveira@redealumni.com,2020-08-17 18:49:54 -0300,Kathleen Amaro Oliveira,Líder Comercial
+monica.rodrigues08@yahoo.com.br,2020-08-17 18:36:30 -0300,Monica Rodrigues de Oliveira ,Vendedora
 re.mba@globo.com,2020-08-17 18:16:31 -0300,Regiane Spadini,Publicitária
 gabriel.cintra@yahoo.com.br,2020-08-17 18:00:56 -0300,Joao Gabriel Cintra Maia,Analista de Sistemas
-eng.assis@hotmail.com,2020-08-17 17:52:43 -0300,Jonatas de Assis,Facilities Mananger
-contatogabisant@gmail.com,2020-08-17 17:47:35 -0300,Gabriela Aparecida Santana de Siqueira,Estudante
+eng.assis@hotmail.com,2020-08-17 17:52:45 -0300,Jonatas de Assis,Facilities Mananger
+contatogabisant@gmail.com,2020-08-17 17:47:35 -0300, Gabriela Aparecida Santana de Siqueira,Estudante
 delajarabeat@gmail.com,2020-08-17 17:41:24 -0300,Vinícius Mendez,Musico
 amandalcp@gmail.com,2020-08-17 17:34:45 -0300,AMANDA LAGE CARVALHO PINTO,Engenheira Civil
 mmarquesjulia@gmail.com,2020-08-17 17:34:36 -0300,Julia Marques,Arquiteta
@@ -230,51 +293,51 @@ patricia.leite@quero.com,2020-08-17 17:32:41 -0300,Patrícia Carvalho Leite,Jorn
 hello.rjulio@gmail.com,2020-08-17 17:28:54 -0300,Rafael Julio Lemos Silva,Programador
 adriana1985@gmail.com,2020-08-17 17:22:38 -0300,Adriana Lage Carvalho Pinto teixeira,Bancária
 isis.com.br@gmail.com,2020-08-17 17:22:05 -0300,ISIS PINTO,advogada
-vovovige@hotmail.com,2020-08-17 17:20:31 -0300,Virginia graças dos Santos Rossi,cozinheira
+vovovige@hotmail.com,2020-08-17 17:21:23 -0300,Virginia graças dos Santos Rossi ,cozinheira
 amanda.figueiredo97@hotmail.com,2020-08-17 17:18:16 -0300,Amanda Figueiredo dos Santos,Analista Administrativa
-giovannacco@gmail.com,2020-06-19 14:10:35 -0300,Giovanna Cornelio Cantinho de Oliveira,Jornalista
+giovannacco@gmail.com,2020-08-17 17:17:07 -0300,Giovanna Cornelio Cantinho de Oliveira,Jornalista
 cehpalomares@gmail.com,2020-08-17 17:12:20 -0300,César Augusto Palomares Gomes da Silva,Excecutivo de Contas
 jannabona@gmail.com,2020-08-17 17:11:35 -0300,Jannaina Bonacelli de Oliveira Marra,Animadora 3D
 ariadnykaroliny22@yahoo.com.br,2020-08-17 17:10:29 -0300,ARIADNY KAROLINY SEVERINO,Analista de Departamento Pessoal
 pedro.apkerr@gmail.com,2020-08-17 17:04:17 -0300,Pedro de Almeida Prado Kerr,Publicitário
 danniel.dk@hotmail.com,2020-08-17 17:00:12 -0300,Danniel lisardo oliveira da silva,Estudante
-graziwho@gmail.com,2020-08-17 16:09:21 -0300,Graziele Silva,Analista de QA
+graziwho@gmail.com,2020-08-17 16:50:37 -0300,Graziele Silva,Analista de QA
 barbaraa.scatolini@gmail.com,2020-08-17 16:49:35 -0300,Bárbara de Andrade Scatolini,Creative Producer
 du_vasconceloss@hotmail.com,2020-08-17 16:44:34 -0300,CARLOS EDUARDO DOS SANTOS VASCONCELOS LEITE,ANALISTA T.I
 mare.frz.tine@gmail.com,2020-08-17 16:43:42 -0300,Marianne Ferruzzi Tine,Analista de Qualidade
 raphael.res@hotmail.com,2020-08-17 16:43:33 -0300,Raphael do Espírito Santo,Comercial
 mariana.cristiina@gmail.com,2020-08-17 16:41:51 -0300,Mariana Cristina Silva de Siqueira,Analista Fiscal
 stos.everton@gmail.com,2020-08-17 16:38:41 -0300,Everton dos Santos Gomes,Analista
-marilia@quero.com,2019-10-24 18:23:03 -0300,Marília Sousa,Relações Públicas
-otavio.pedrazzoli@redealumni.com,2020-05-15 16:04:58 -0300,Otávio P,Estudante
+marilia@quero.com,2020-08-17 16:31:17 -0300,Marília Sousa,Relações Públicas
+otavio.pedrazzoli@redealumni.com,2020-08-17 16:20:19 -0300,Otávio P,Estudante
 ai.laestefani95@gmail.com,2020-08-17 16:19:47 -0300,Aila Silva,Superviso de vendas
-diego.santos@quero.com,2020-03-31 17:03:45 -0300,Diego Santos,Gestor Comercial
+diego.santos@quero.com,2020-08-17 16:19:08 -0300,Diego Santos,Gestor Comercial
 nathanaelreges@gmail.com,2020-08-17 16:18:48 -0300,Nathanael Reges Sousa,Desenvolvedor Web
-mariana.cicerone@quero.com,2020-08-17 16:16:07 -0300,Mariana Cicerone,Analista de RH
-jessica.ganacin@melhorescola.net,2020-08-17 16:11:16 -0300,Jessica Ganacin,Consultor Comercial de Relacionamento B2B
-log.elana@gmail.com,2020-03-25 16:55:37 -0300,Elana Rafaelly Vidal Pereira,Gerente de Conta
-erich.rodrigues@yahoo.com.br,2020-08-17 15:55:17 -0300,Erich Rodrigues Ferrares,Programador
-vinicius.hoyer@redealumni.com,2020-03-25 17:01:19 -0300,Vinícius Erwin da Silva Hoyer,Desenvolvedor
+mariana.cicerone@quero.com,2020-08-17 16:16:11 -0300,Mariana Cicerone,Analista de RH
+jessica.ganacin@melhorescola.net,2020-08-17 16:12:49 -0300,Jessica Ganacin,Consultor Comercial de Relacionamento B2B
+log.elana@gmail.com,2020-08-17 16:11:15 -0300,Elana Rafaelly Vidal Pereira,Gerente de Conta
+erich.rodrigues@yahoo.com.br,2020-08-17 16:08:43 -0300,Erich Rodrigues Ferrares,Programador
+vinicius.hoyer@redealumni.com,2020-08-17 16:06:42 -0300,Vinícius Erwin da Silva Hoyer,Desenvolvedor
 alinean25@gmail.com,2020-08-17 16:06:36 -0300,Aline Neves,Product Manager
-leticia.calderaro@quero.com,2020-03-25 17:19:29 -0300,Letícia Calderaro Fernandes,publicitária
-priscila.santos@redealumni.com.br,2020-08-17 16:05:22 -0300,Priscila Marques dos Santos,Estudante
+leticia.calderaro@quero.com,2020-08-17 16:06:33 -0300,Letícia Calderaro Fernandes,publicitária
+priscila.santos@redealumni.com.br,2020-08-17 16:05:22 -0300,Priscila Marques dos Santos ,Estudante
 guimancilha@gmail.com,2020-08-17 16:03:33 -0300,Guilherme Augusto Bueno Mancilha,Engenheiro
 carolzinha.lindoso@gmail.com,2020-08-17 16:01:55 -0300,Carolina de Oliveira Lindoso Machado,Atendente comercial
 midori.restani@gmail.com,2020-08-17 16:01:08 -0300,Gabriela Midori Restani,Estagiária
 neuma.fb70@gmail.com,2020-08-17 16:00:44 -0300,Francisca Francineuma Fernandes Basilio,Estudante
-lucas_aquino16@hotmail.com,2019-09-27 14:35:47 -0300,Lucas de Oliveira,Desenvolvedor
+lucas_aquino16@hotmail.com,2020-08-17 15:59:47 -0300,Lucas de Oliveira,Desenvolvedor
 brumayu@gmail.com,2020-08-17 15:59:42 -0300,Bruna M K Barbosa,Designer
-carola.salazar@quero.com,2019-10-24 18:11:47 -0300,Carola Sanchez Salazar,Coordenador de T&D
-gabrielcsp@gmail.com,2018-12-12 11:38:36 -0200,Gabriel Campos Santos Pinto,Gestor Comercial
+carola.salazar@quero.com,2020-08-17 15:59:40 -0300,Carola Sanchez Salazar,Coordenador de T&D
+gabrielcsp@gmail.com,2020-08-17 15:58:53 -0300,Gabriel Campos Santos Pinto,Gestor Comercial
 joyce.matos@redealumni.com,2020-08-17 15:57:19 -0300,Joyce Alves Rosa de Matos,tecnico em radiologia
 joaovitor_as08802@hotmail.com,2020-08-17 15:57:03 -0300,João Vitor Alves Silva,Engenheiro de Software
-marina.teixeira@quero.com,2019-10-24 18:27:48 -0300,Marina Teixeira,Publicitária
-guilherme.araujoarantes@gmail.com,2019-08-21 00:00:51 -0300,Guilherme Araujo Arantes,Analista de FP&A
+marina.teixeira@quero.com,2020-08-17 15:56:41 -0300,Marina Teixeira,Publicitária
+guilherme.araujoarantes@gmail.com,2020-08-17 15:56:31 -0300,Guilherme Araujo Arantes,Analista de FP&A
 alyson.basilio@gmail.com,2020-08-17 15:56:00 -0300,Alyson Fernandes Basilio,Engenheiro de Computação
-giovanamurca@gmail.com,2019-07-18 16:58:32 -0300,Giovana Murça Pastori,Jornalista
-bruna.pedroso@redealumni.com,2020-03-25 17:10:49 -0300,Bruna Lima Pedroso,Analista de qualidade
+giovanamurca@gmail.com,2020-08-17 15:55:56 -0300,Giovana Murça Pastori,Jornalista
+bruna.pedroso@redealumni.com,2020-08-17 15:55:39 -0300,Bruna Lima Pedroso,Analista de qualidade
 rakel.monize@quero.com,2020-08-17 15:55:36 -0300,Rakel Monize,Analista Jurídico
-evelyn.silveira@redealumni.com,2020-08-17 15:55:21 -0300,Evelyn Vitória,Recrutadora
+evelyn.silveira@redealumni.com,2020-08-17 15:55:21 -0300,Evelyn Vitória ,Recrutadora
 heitor.facini@redealumni.com,2020-08-17 15:55:07 -0300,Heitor Rossi Ambiel Facini,Jornalista
 arthur.d.napoleao@gmail.com,2020-08-17 15:54:33 -0300,Arthur de Paiva Napoleão,Administrador
 bruna.manso@redealunmi.com,2020-08-17 15:54:15 -0300,Bruna Costa Manso,Consultor Comercial
@@ -283,16 +346,16 @@ humberto.rssiqueira@gmail.com,2020-08-17 15:42:45 -0300,Humberto Rodolfo Santana
 phamraphaela@gmail.com,2020-08-17 15:25:17 -0300,Raphaela de Avila Martins de Souza,Analista de Compras
 wagner.ads@live.com,2020-08-17 10:59:33 -0300,Wagner Alves dos Santos,Desenvolvedor
 tiberioalline@gmail.com,2020-08-17 10:00:41 -0300,Alline Tiberio,Gerente de Contas
-rui0706@gmail.com,2020-08-13 13:54:39 -0300,RUI GONÇALVES BARBOSA,Jornalista
+rui0706@gmail.com,2020-08-14 13:12:00 -0300,RUI GONÇALVES BARBOSA,Jornalista
 ajuliana.eu@gmail.com,2020-08-14 09:59:38 -0300,Juliana Soares da Costa,Produtora audiovisual
-jannete.xavier@quero.com,2020-06-19 15:34:53 -0300,Jannete Xavier,Jornalista
+jannete.xavier@quero.com,2020-08-13 16:47:36 -0300,Jannete Xavier,Jornalista
 carolmordente@gmail.com,2020-08-13 15:10:11 -0300,Carolina Campos,Arquiteta
-flavio.moreira@redealumni.com,2018-10-16 11:16:36 -0300,flavio rodrigo moreira,videomaker
-ibnemartins@gmail.com,2020-08-13 13:57:49 -0300,Ibne Daniel da Silva Martins,Estagiário em Comunicação
+flavio.moreira@redealumni.com,2020-08-13 14:09:20 -0300,flavio rodrigo moreira,videomaker
+ibnemartins@gmail.com,2020-08-13 13:57:49 -0300,Ibne Daniel da Silva Martins ,Estagiário em Comunicação
 b.o.lacerda@gmail.com,2020-08-13 13:57:35 -0300,BRUNO DE OLIVEIRA LACERDA,Publicitário
-isabelle.castillo@redealumni.com,2019-08-14 15:40:41 -0300,Isabelle Cavalcanti Massot Castillo,Relações Públicas
-janehmiranda@gmail.com,2020-08-12 15:18:50 -0300,Jane Helena Miranda,Relações Públicas
-gui_silva18@hotmail.com,2020-08-13 10:41:17 -0300,,
-bruno.lacerda@quero.com,2020-08-12 17:10:14 -0300,,
-marcelomundu@hotmail.com,2018-10-15 11:01:10 -0300,,
-caina.rotta@quero.com,2020-03-16 17:24:20 -0300,,
+isabelle.castillo@redealumni.com,2020-08-13 13:56:52 -0300,Isabelle Cavalcanti Massot Castillo,Relações Públicas
+janehmiranda@gmail.com,2020-08-13 12:26:06 -0300,Jane Helena Miranda,Relações Públicas
+gui_silva18@hotmail.com,2020-08-13 10:41:17 -0300,"",""
+bruno.lacerda@quero.com,2020-08-12 17:10:14 -0300,"",""
+marcelomundu@hotmail.com,2020-07-28 14:53:36 -0300,"",""
+caina.rotta@quero.com,2020-07-27 15:02:24 -0300,"",""
