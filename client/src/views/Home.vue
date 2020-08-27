@@ -2,6 +2,12 @@
   <section>
     <PageHeader />
 
+    <section class="section sign-hero">
+      <container>
+        <sign-hero />
+      </container>
+    </section>
+
     <section class="section manifest">
       <container>
         <manifest />
@@ -24,6 +30,7 @@
 import Container from '@/components/container';
 import LeadForm from '@/components/lead-form';
 import Manifest from '@/components/manifest';
+import SignHero from '@/components/sign-hero';
 import PageFooter from '@/layout/page-footer';
 import PageHeader from '@/layout/page-header';
 
@@ -33,6 +40,7 @@ export default {
     Container,
     LeadForm,
     Manifest,
+    SignHero,
     PageFooter,
     PageHeader,
   },
@@ -65,6 +73,10 @@ export default {
 
 .manifest {
   background-color: var(--blue2);
+}
+
+.sign-hero {
+  background-color: var(--cyan);
 }
 
 .section  {
