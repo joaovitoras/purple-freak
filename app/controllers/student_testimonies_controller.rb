@@ -4,7 +4,7 @@ class StudentTestimoniesController < ApplicationController
   # GET /student_testimonies
   # GET /student_testimonies.json
   def index
-    @student_testimonies = StudentTestimony.all
+    @student_testimonies = StudentTestimony.accepted
   end
 
   # GET /student_testimonies/1
@@ -48,6 +48,6 @@ class StudentTestimoniesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def student_testimony_params
-      params.require(:student_testimony).permit(:type, :url, :text, :full_name, :email, :status)
+      params.require(:student_testimony).permit(:kind, :url, :text, :full_name, :email, :status)
     end
 end
