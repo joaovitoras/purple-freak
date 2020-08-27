@@ -93,8 +93,8 @@
         </z-text>
 
         <div
-          v-for="lead in leads"
-          :key="lead.email"
+          v-for="leada in leads"
+          :key="leada.email"
           class="sign-hero__leads-timeline-item"
         >
           <z-avatar
@@ -103,7 +103,7 @@
           />
 
           <z-text size="small">
-            <strong>{{ lead.full_name }}</strong> assinou {{ moment(lead.signed_at).fromNow() }}
+            <strong>{{ leada.full_name }}</strong> assinou {{ moment(leada.signed_at).fromNow() }}
           </z-text>
         </div>
       </div>
@@ -155,7 +155,7 @@ export default {
     },
     windowWidth() {
       if (window.innerWidth >= 1024) {
-        return 650;
+        return 550;
       }
 
       return 270;
