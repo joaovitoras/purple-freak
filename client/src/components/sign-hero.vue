@@ -38,7 +38,7 @@
           <z-input
             v-model="lead.name"
             :has-error="hasError"
-            placeholder="Insira eu nome"
+            placeholder="Insira seu nome"
           />
         </z-input-field>
 
@@ -81,12 +81,12 @@
           size="small"
           class="sign-hero__leads-timeline-title"
         >
-          Ultimas assinaturas
+          Últimas assinaturas
         </z-text>
 
         <div
-          v-for="i in 2"
-          :key="i"
+          v-for="lead in leads"
+          :key="lead.email"
           class="sign-hero__leads-timeline-item"
         >
           <z-avatar
@@ -94,8 +94,8 @@
             class="sign-hero__leads-timeline-avatar"
           />
 
-          <z-text>
-            Eaee, assinei
+          <z-text size="small">
+            <strong>{{ lead.full_name }}</strong> assinou {{ moment(lead.signed_at).fromNow() }}
           </z-text>
         </div>
       </div>
@@ -117,7 +117,18 @@ export default {
         email: null,
         profission: null,
       },
+      leads: [],
     };
+  },
+  mounted() {
+    this
+      .$api
+      .get('/leads')
+      .then(({ data }) => {
+        this.leads = data;
+      });
+
+    window.moment = this.moment;
   },
   methods: {
     signManifest() {
