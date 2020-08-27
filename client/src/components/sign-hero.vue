@@ -29,6 +29,15 @@
     </div>
 
     <div class="sign-hero__leads-form">
+      <z-text class="sign-hero__leads-count">
+        <template v-if="leads_count">
+          <strong>{{ leads_count }}</strong> pessoas já assinaram
+        </template>
+        <template v-else>
+          Carregando...
+        </template>
+      </z-text>
+
       <form @submit.prevent="signManifest">
         <z-input-field
           #default="{ hasError }"
@@ -118,6 +127,7 @@ export default {
         profission: null,
       },
       leads: [],
+      leads_count: null,
     };
   },
   mounted() {
@@ -126,6 +136,12 @@ export default {
       .get('/leads')
       .then(({ data }) => {
         this.leads = data;
+      });
+
+    this.$api('/leads-overview')
+      .then(({ data }) => {
+        const { leads_count } = data;
+        this.leads_count = leads_count;
       });
 
     window.moment = this.moment;
@@ -199,5 +215,9 @@ export default {
 
 .sign-hero__leads-timeline-title {
   margin-bottom: var(--space-small);
+}
+
+.sign-hero__leads-count {
+  margin-bottom: 16px;
 }
 </style>
