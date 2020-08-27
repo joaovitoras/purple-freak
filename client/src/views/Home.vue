@@ -14,7 +14,13 @@
       </container>
     </section>
 
-    <section>
+    <section class="section">
+      <container>
+        <testimonials />
+      </container>
+    </section>
+
+    <section >
       <container>
         <p>Total de assinaturas: {{ leads_count }}</p>
 
@@ -27,12 +33,13 @@
 </template>
 
 <script>
+import PageFooter from '@/layout/page-footer';
+import PageHeader from '@/layout/page-header';
 import Container from '@/components/container';
 import LeadForm from '@/components/lead-form';
 import Manifest from '@/components/manifest';
 import SignHero from '@/components/sign-hero';
-import PageFooter from '@/layout/page-footer';
-import PageHeader from '@/layout/page-header';
+import Testimonials from '@/components/testimonials';
 
 export default {
   name: 'Home',
@@ -41,6 +48,7 @@ export default {
     LeadForm,
     Manifest,
     SignHero,
+    Testimonials,
     PageFooter,
     PageHeader,
   },
@@ -72,16 +80,17 @@ export default {
 @import '@/assets/global.scss';
 
 .manifest {
+  color: white;
   background-color: var(--blue2);
 }
 
 .sign-hero {
+  color: white;
   background-color: var(--cyan);
 }
 
 .section  {
   padding-top: var(--space-colossal);
   padding-bottom: var(--space-colossal);
-  color: white
 }
 </style>
