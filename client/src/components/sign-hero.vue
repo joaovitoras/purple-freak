@@ -76,7 +76,6 @@
 
         <z-button
           class="sign-hero__leads-form-submit"
-          disabled
           icon="pencil-alt"
           behavior="block"
         >
