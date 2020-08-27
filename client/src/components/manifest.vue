@@ -20,6 +20,13 @@
         </h2>
       </template>
     </div>
+    <z-button
+      tag="a"
+      href="/manifesto.pdf"
+      target="_blank"
+    >
+      Link para o manifesto
+    </z-button>
   </div>
 </template>
 
